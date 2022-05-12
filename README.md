@@ -18,17 +18,21 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 
 ## 🌱Contents
-4. [Methods](#Methods)
-5. [Datasets](#Datasets)
-6. [Metrics](#Metrics)
-7. [Citation](#Citation)
+1. [Basics](#Basics)
+2. [Methods](#Methods)
+3. [Datasets](#Datasets)
+4. [Metrics](#Metrics)
+5. [Citation](#Citation)
+
+## 📋Basics
+* [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
 
 ## 📋Methods
 ![Overview](/chronology.png)
-|Year|Publication|Title|Abbreviation|Objective|Platform|
+|Year|Publication|Title|Abbreviation|Objective|Platform|Note|
 |---|---|---|---|---|---|
-|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|
-|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|
+|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|Focal length|
+|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|Focal length|
 
 
 
