@@ -1,61 +1,27 @@
-# awesome-deep-camera-calibration
+# Awesome-Deep-Camera-Calibration
 
-## [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/pdf/2104.10729.pdf)
-![teaser](/teaser.jpg)
+## [Deep Learning for Camera Calibration: A Survey]()
 
 This repository provides：
 
- **1)** a unified online platform, **LLIE-Platform http://mc.nankai.edu.cn/ll/**, that covers many popular deep learning-based LLIE methods, of which the results can be produced through a user-friendly web interface, contains a low-light image and video dataset.
+ **1)** a unified online platform
+ **2)** a new dataset 
+ **3)** collects deep learning-based camera calibration **methods, datasets, and evaluation metrics**. 
 
- **2)** a new dataset **LLIV-Phone https://drive.google.com/file/d/1QS4FgT5aTQNYy-eHZ_A89rLoZgx_iysR/view?usp=sharing**, in which the images and videos are taken by various phones' cameras under diverse illumination conditions and scenes, and 
+More content and details can be found in our Survey Paper: [Deep Learning for Camera Calibration: A Survey](). 
 
- **3)** collects deep learning-based low-light image and video enhancement **methods, datasets, and evaluation metrics**. 
-
-More content and details can be found in our Survey Paper: [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/abs/2104.10729). 
-
-我们提供中文翻译版：[基于深度学习的低照度图像与视频增强综述](https://li-chongyi.github.io/PDF/Low_Light_Image_and_Video_Enhancement_Using_Deep_Learning__A_Survey.pdf). 
-
-We provide the comparison results on the real low-light videos taken by different mobile phones’ cameras at YouTube https://www.youtube.com/watch?v=Elo9TkrG5Oo&t=6s.
-
-✌We will periodically update the content.  Welcome to let us know if we miss your work that is published in top-tier Journal or conference. We will add it.
-
-✌Our **LLIE-Platform** supports the function of download. Please right click and then save the figure. 
-
-✌ **If you use this dataset or platform, please cite our paper. Please hit the star at the top-right corner. Thanks!**
-
-
-✌ **Please hit the star in the repo when you ask for any code. Thanks!**
 
 
 ## 📣News
-1. The survey is accepted by TPAMI. 
-
-2. We newly add the Zero-DCE++ to the **LLIE-Platform**. Have Fun!
-
-Zero-DCE++: C. Li, C. Guo, and C. C. Loy, Learning to enhance low-light image via zero-reference deep curve estimation, TPAMI, 2021.
+1. The survey is submitted. 
 
 
 
 ## 🌱Contents
-1. [LLIE-Platform](#DarkPlatform)
-3. [LLIV-Phone Dataset](#LLIVPhone)
 4. [Methods](#Methods)
 5. [Datasets](#Datasets)
 6. [Metrics](#Metrics)
 7. [Citation](#Citation)
-
-### 📋LoLi-Platform
-Currently, the LLIE-Platform covers 14 popular deep learning-based LLIE methods including LLNet, LightenNet, Retinex-Net, EnlightenGAN, MBLLEN, KinD, KinD++, TBEFN, DSLR, DRBN, ExCNet, Zero-DCE, Zero-DCE++, and RRDNet,  where the results of any inputs can be produced through a user-friendly web interface. Have fun: [LLIE-Platform](http://mc.nankai.edu.cn/ll/).
-
-### 📋LLIV-Phone
-![Overview](/dataset_samples.png)
-LLIV-Phone dataset contains 120 videos (45,148 images) taken by 18 different phones' cameras including iPhone 6s, iPhone 7, iPhone7 Plus, iPhone8 Plus, iPhone 11, iPhone 11 Pro, iPhone XS, iPhone XR, iPhone SE, Xiaomi Mi 9, Xiaomi Mi Mix 3, Pixel 3, Pixel 4,  Oppo R17, Vivo Nex, LG M322, OnePlus 5T, Huawei Mate 20 Pro under diverse illumination conditions (e.g., weak illumination, underexposure, dark, extremely dark, back-lit, non-uniform light, color light sources, etc.) in the indoor and outdoor scenes. 
-
-Anyone can access the LLIV-Phone dataset via 
-
-Google Drive: https://drive.google.com/file/d/1QS4FgT5aTQNYy-eHZ_A89rLoZgx_iysR/view?usp=sharing or 
-
-Baidu Cloud：https://pan.baidu.com/s/1-8PF3dfbtlHlmk9y5ZKx_w, Password: s0b9)
 
 ## 📋Methods
 ![Overview](/chronology.png)
@@ -153,10 +119,9 @@ If you find the repository helpful in your resarch, please cite the following pa
 
 [arXiv Version](https://arxiv.org/pdf/2104.10729.pdf)
 
-[Chinese Version](https://li-chongyi.github.io/PDF/Low_Light_Image_and_Video_Enhancement_Using_Deep_Learning__A_Survey.pdf)
 
 ## 📭Contact
 
 ```
-lichongyi25@gmail.com; guochunle@nankai.edu.cn
+kang_liao@bjtu.edu.cn
 ```
