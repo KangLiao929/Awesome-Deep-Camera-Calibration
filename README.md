@@ -33,6 +33,11 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |---|---|---|---|---|---|---|
 |2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|DeepFocal|Intrinsics|Caffe|AlexNet|
 |2015|ICCV|Posenet: A convolutional network for real-time 6-dof camera relocalization [paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)|PoseNet|Extrinsics|Caffe|GoogLeNet|
+|2016|BMVC|Horizon lines in the wild [paper](https://arxiv.org/abs/1604.02129)|HLW|Extrinsics|Caffe|GoogLeNet|
+|2016|CVPR|Detecting vanishing points using global image context in a non-manhattan world [paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhai_Detecting_Vanishing_Points_CVPR_2016_paper.html)|Deep VP|Extrinsics|Caffe|AlexNet|
+|2016|ACCV|Radial lens distortion correction using convolutional neural networks trained with synthesized images [paper](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Deep VP|Distortion coefficients|Caffe|AlexNet|
+|2016|RSSW|Deep image homography estimation [paper](https://arxiv.org/abs/1606.03798)|Deep Homo|Projection matrixs|Caffe|VGG|
+
 
 
 
