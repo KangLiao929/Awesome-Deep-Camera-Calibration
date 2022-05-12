@@ -29,10 +29,10 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 ## 📋Methods
 ![Overview](/chronology.png)
-|Year|Publication|Title|Abbreviation|Objective|Platform|Note|
+|Year|Publication|Title|Abbreviation|Objective|Platform|Network|
 |---|---|---|---|---|---|---|
-|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|Focal length|
-|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal|Intrinsics|Caffe|Focal length|
+|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|DeepFocal|Intrinsics|Caffe|AlexNet|
+|2015|ICCV|Posenet: A convolutional network for real-time 6-dof camera relocalization [paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)|PoseNet|Extrinsics|Caffe|GoogLeNet|
 
 
 
