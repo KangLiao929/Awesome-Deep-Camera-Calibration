@@ -36,7 +36,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2016|BMVC|Horizon lines in the wild [paper](https://arxiv.org/abs/1604.02129)|DeepHorizon|Extrinsics|Caffe|GoogLeNet|
 |2016|CVPR|Detecting vanishing points using global image context in a non-manhattan world [paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhai_Detecting_Vanishing_Points_CVPR_2016_paper.html)|Deep VP|Extrinsics|Caffe|AlexNet|
 |2016|ACCV|Radial lens distortion correction using convolutional neural networks trained with synthesized images [paper](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Deep VP|Distortion coefficients|Caffe|AlexNet|
-|2016|RSSW|Deep image homography estimation [paper](https://arxiv.org/abs/1606.03798)|Deep Homo|Projection matrixs|Caffe|VGG|
+|2016|RSSW|Deep image homography estimation [paper](https://arxiv.org/abs/1606.03798)|DHN|Projection matrixs|Caffe|VGG|
 |2017|CVPR|Clkn: Cascaded lucas-kanade networks for image alignment [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Chang_CLKN_Cascaded_Lucas-Kanade_CVPR_2017_paper.html)|CLKN|Projection matrixs|Torch|CNN + Lucas-Kanade layer|
 |2017|ICCVW|Homography estimation from image pairs with hierarchical convolutional networks [paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w17/html/Nowruzi_Homography_Estimation_From_ICCV_2017_paper.html)|HierarchicalNet|Projection matrixs|TensorFlow|VGG|
 |2018|CVPR|A perceptual measure for deep single image camera calibration [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Hold-Geoffroy_A_Perceptual_Measure_CVPR_2018_paper.html)|Hold-Geoffroy et al.|Intrinsics + Extrinsics| |DenseNet|
@@ -45,7 +45,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2018|ICPR|Radial lens distortion correction by adding a weight layer with inverted foveal models to convolutional neural networks [paper](https://ieeexplore.ieee.org/abstract/document/8545218)|Shi et al.|Distortion coefficients|PyTorch|ResNet|
 |2018|ECCV|Deep fundamental matrix estimation [paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Rene_Ranftl_Deep_Fundamental_Matrix_ECCV_2018_paper.html)|DeepFM|Projection matrixs|PyTorch|ResNet|
 |2018|ECCVW|Deep fundamental matrix estimation without correspondences [paper](https://openaccess.thecvf.com/content_eccv_2018_workshops/w16/html/Poursaeed_Deep_Fundamental_Matrix_Estimation_without_Correspondences_ECCVW_2018_paper.html)|Poursaeed et al.|Projection matrixs| |CNNs|
-|2018|RAL|Unsupervised deep homography: A fast and robust homography estimation model [paper](https://ieeexplore.ieee.org/abstract/document/8302515)|UDH|Projection matrixs|TensorFlow|VGG|
+|2018|RAL|Unsupervised deep homography: A fast and robust homography estimation model [paper](https://ieeexplore.ieee.org/abstract/document/8302515)|UDHN|Projection matrixs|TensorFlow|VGG|
 |2019|CVPR|Deep single image camera calibration with radial distortion [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Lopez_Deep_Single_Image_Camera_Calibration_With_Radial_Distortion_CVPR_2019_paper.html)|Lopez et al.|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|DenseNet|
 |2019|ICCV|UprightNet: geometry-aware camera orientation estimation from single images [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Xian_UprightNet_Geometry-Aware_Camera_Orientation_Estimation_From_Single_Images_ICCV_2019_paper.html)|UprightNet|Extrinsics|PyTorch|U-Net|
 |2019|IROS|Degeneracy in self-calibration revisited and a deep learning solution for uncalibrated slam [paper](https://ieeexplore.ieee.org/abstract/document/8967912)|Zhuang et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
@@ -62,6 +62,10 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2020|CVPR|End-to-end camera calibration for broadcast videos [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sha_End-to-End_Camera_Calibration_for_Broadcast_Videos_CVPR_2020_paper.html)|Sha et al.|Projection matrixs|TensorFlow|Siamese-Net + U-Net|
 |2020|ECCV|Neural geometric parser for single image camera calibration [paper](https://link.springer.com/chapter/10.1007/978-3-030-58610-2_32)|Lee et al.|Intrinsics + Extrinsics| |PointNet + CNNs|
 |2020|ICRA|Learning camera miscalibration detection [paper](https://ieeexplore.ieee.org/abstract/document/9197378)|MisCaliDet|Average pixel position difference| |CNNs|
+|2020|WACV|DeepPTZ: deep self-calibration for PTZ cameras [paper](https://openaccess.thecvf.com/content_WACV_2020/html/Zhang_DeepPTZ_Deep_Self-Calibration_for_PTZ_Cameras_WACV_2020_paper.html)|DeepPTZ|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|Inception-V3|
+|2020|CVPR|Deep homography estimation for dynamic scenes [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.html)|DS-DHN|Projection matrixs|TensorFlow|VGG|
+
+
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
