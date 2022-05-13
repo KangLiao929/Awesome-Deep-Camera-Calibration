@@ -58,7 +58,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2019|CVPR|Blind geometric distortion correction on images through deep learning [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Blind_Geometric_Distortion_Correction_on_Images_Through_Deep_Learning_CVPR_2019_paper.html)|BlindCor|Undistortion|PyTorch|U-Net|
 |2019|CVPR|Learning structure-and-motion-aware rolling shutter correction [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhuang_Learning_Structure-And-Motion-Aware_Rolling_Shutter_Correction_CVPR_2019_paper.html)|RSC-Net|Undistortion|PyTorch|ResNet|
 |2019|CVPR|Learning to calibrate straight lines for fisheye image rectification [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Xue_Learning_to_Calibrate_Straight_Lines_for_Fisheye_Image_Rectification_CVPR_2019_paper.html)|Xue et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
-|2019|CVPR|Learning perspective undistortion of portraits [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_Learning_Perspective_Undistortion_of_Portraits_ICCV_2019_paper.html)|Zhao et al.|Undistortion||VGG + U-Net|
+|2019|ICCV|Learning perspective undistortion of portraits [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_Learning_Perspective_Undistortion_of_Portraits_ICCV_2019_paper.html)|Zhao et al.|Intrinsics + Undistortion||VGG + U-Net|
 
 
 ## 📋Datasets
