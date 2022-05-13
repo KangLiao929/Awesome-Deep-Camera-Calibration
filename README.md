@@ -40,6 +40,12 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2017|CVPR|Clkn: Cascaded lucas-kanade networks for image alignment [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Chang_CLKN_Cascaded_Lucas-Kanade_CVPR_2017_paper.html)|CLKN|Projection matrixs|Torch|CNN + Lucas-Kanade layer|
 |2018|CVPR|A perceptual measure for deep single image camera calibration [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Hold-Geoffroy_A_Perceptual_Measure_CVPR_2018_paper.html)|Hold-Geoffroy et al.|Intrinsics + Extrinsics| |DenseNet|
 |2018|CVMP|DeepCalib: a deep learning approach for automatic intrinsic calibration of wide field-of-view cameras [paper](https://dl.acm.org/doi/abs/10.1145/3278471.3278479)|DeepCalib|Intrinsics + Distortion coefficients|TensorFlow|Inception-V3|
+|2018|ECCV|Fisheyerecnet: A multi-context collaborative deep network for fisheye image rectification [paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoqing_Yin_FishEyeRecNet_A_Multi-Context_ECCV_2018_paper.html)|FishEyeRecNet|Distortion coefficients|Caffe|VGG|
+|2018|ICPR|Radial lens distortion correction by adding a weight layer with inverted foveal models to convolutional neural networks [paper](https://ieeexplore.ieee.org/abstract/document/8545218)|Shi et al.|Distortion coefficients|PyTorch|ResNet|
+|2018|ECCV|Deep fundamental matrix estimation [paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Rene_Ranftl_Deep_Fundamental_Matrix_ECCV_2018_paper.html)|DeepFM|Projection matrixs|PyTorch|ResNet|
+|2018|ECCVW|Deep fundamental matrix estimation without correspondences [paper](https://openaccess.thecvf.com/content_eccv_2018_workshops/w16/html/Poursaeed_Deep_Fundamental_Matrix_Estimation_without_Correspondences_ECCVW_2018_paper.html)|Poursaeed et al.|Projection matrixs| |CNNs|
+|2018|RAL|Unsupervised deep homography: A fast and robust homography estimation model [paper](https://ieeexplore.ieee.org/abstract/document/8302515)|UDH|Projection matrixs|TensorFlow|VGG|
+|2019|CVPR|Deep single image camera calibration with radial distortion [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Lopez_Deep_Single_Image_Camera_Calibration_With_Radial_Distortion_CVPR_2019_paper.html)|Lopez et al.|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|DenseNet|
 
 
 
