@@ -51,6 +51,14 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2019|IROS|Degeneracy in self-calibration revisited and a deep learning solution for uncalibrated slam [paper](https://ieeexplore.ieee.org/abstract/document/8967912)|Zhuang et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
 |2019|PRL|Self-Supervised deep homography estimation with invertibility constraints [paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938221001062)|SSR-Net|Projection matrixs|PyTorch|ResNet|
 |2019|ICCVW|A geometric approach to obtain a bird's eye view from an image [paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/GMDL/Abbas_A_Geometric_Approach_to_Obtain_a_Birds_Eye_View_From_ICCVW_2019_paper.html)|Abbas et al.|Projection matrixs|TensorFlow|CNNs|
+|2019|TCSVT|DR-GAN: Automatic radial distortion rectification using conditional GAN in real-time [paper](https://ieeexplore.ieee.org/abstract/document/8636975)|DR-GAN|Undistortion|TensorFlow|GANs|
+|2019|TCSVT|Distortion rectification from static to dynamic: A distortion sequence construction perspective [paper](https://ieeexplore.ieee.org/abstract/document/8926530)|STD|Undistortion|TensorFlow|GANs|
+|2019|VR|Deep360Up: A deep learning-based approach for automatic VR image upright adjustment [paper](https://ieeexplore.ieee.org/abstract/document/8798326)|Deep360Up|Extrinsics| |CNNs|
+|2019|JVCIR|Unsupervised fisheye image correction through bidirectional loss with geometric prior [paper](https://www.sciencedirect.com/science/article/abs/pii/S104732031930313X)|UnFishCor|Distortion coefficients|TensorFlow|VGG|
+|2019|CVPR|Blind geometric distortion correction on images through deep learning [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Blind_Geometric_Distortion_Correction_on_Images_Through_Deep_Learning_CVPR_2019_paper.html)|BlindCor|Undistortion|PyTorch|U-Net|
+|2019|CVPR|Learning structure-and-motion-aware rolling shutter correction [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhuang_Learning_Structure-And-Motion-Aware_Rolling_Shutter_Correction_CVPR_2019_paper.html)|RSC-Net|Undistortion|PyTorch|ResNet|
+|2019|CVPR|Learning to calibrate straight lines for fisheye image rectification [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Xue_Learning_to_Calibrate_Straight_Lines_for_Fisheye_Image_Rectification_CVPR_2019_paper.html)|Xue et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
+|2019|CVPR|Learning perspective undistortion of portraits [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_Learning_Perspective_Undistortion_of_Portraits_ICCV_2019_paper.html)|Zhao et al.|Undistortion||VGG + U-Net|
 
 
 ## 📋Datasets
