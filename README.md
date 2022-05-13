@@ -59,7 +59,9 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2019|CVPR|Learning structure-and-motion-aware rolling shutter correction [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhuang_Learning_Structure-And-Motion-Aware_Rolling_Shutter_Correction_CVPR_2019_paper.html)|RSC-Net|Undistortion|PyTorch|ResNet|
 |2019|CVPR|Learning to calibrate straight lines for fisheye image rectification [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Xue_Learning_to_Calibrate_Straight_Lines_for_Fisheye_Image_Rectification_CVPR_2019_paper.html)|Xue et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
 |2019|ICCV|Learning perspective undistortion of portraits [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_Learning_Perspective_Undistortion_of_Portraits_ICCV_2019_paper.html)|Zhao et al.|Intrinsics + Undistortion||VGG + U-Net|
-
+|2020|CVPR|End-to-end camera calibration for broadcast videos [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sha_End-to-End_Camera_Calibration_for_Broadcast_Videos_CVPR_2020_paper.html)|Sha et al.|Projection matrixs|TensorFlow|Siamese-Net + U-Net|
+|2020|ECCV|Neural geometric parser for single image camera calibration [paper](https://link.springer.com/chapter/10.1007/978-3-030-58610-2_32)|Lee et al.|Intrinsics + Extrinsics| |PointNet + CNNs|
+|2020|ICRA|Learning camera miscalibration detection [paper](https://ieeexplore.ieee.org/abstract/document/9197378)|MisCaliDet|Average pixel position difference| |CNNs|
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
