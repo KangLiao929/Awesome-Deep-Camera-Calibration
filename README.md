@@ -49,8 +49,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2019|CVPR|Deep single image camera calibration with radial distortion [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Lopez_Deep_Single_Image_Camera_Calibration_With_Radial_Distortion_CVPR_2019_paper.html)|Lopez et al.|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|DenseNet|
 |2019|ICCV|UprightNet: geometry-aware camera orientation estimation from single images [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Xian_UprightNet_Geometry-Aware_Camera_Orientation_Estimation_From_Single_Images_ICCV_2019_paper.html)|UprightNet|Extrinsics|PyTorch|U-Net|
 |2019|IROS|Degeneracy in self-calibration revisited and a deep learning solution for uncalibrated slam [paper](https://ieeexplore.ieee.org/abstract/document/8967912)|Zhuang et al.|Intrinsics + Distortion coefficients|PyTorch|ResNet|
-|2019|PRL|Self-Supervised deep homography estimation with invertibility
-constraints [paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938221001062)|SSR-Net|Projection matrixs|PyTorch|ResNet|
+|2019|PRL|Self-Supervised deep homography estimation with invertibility constraints [paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938221001062)|SSR-Net|Projection matrixs|PyTorch|ResNet|
 |2019|ICCVW|A geometric approach to obtain a bird's eye view from an image [paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/GMDL/Abbas_A_Geometric_Approach_to_Obtain_a_Birds_Eye_View_From_ICCVW_2019_paper.html)|Abbas et al.|Projection matrixs|TensorFlow|CNNs|
 
 
