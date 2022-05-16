@@ -100,7 +100,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[ICASSP](https://ieeexplore.ieee.org/abstract/document/9746819)|Camera calibration through camera projection loss|CPL|Intrinsics + Extrinsics|TensorFlow|Inception-V3|
 |2022|[CVPR](https://arxiv.org/abs/2203.15982)|Iterative Deep Homography Estimation|IHN|Projection matrixs|PyTorch|Siamese-Net|
 |2022|[CVPR](https://arxiv.org/abs/2205.03821)|Unsupervised Homography Estimation with Coplanarity-Aware GAN|HomoGAN|Projection matrixs|PyTorch|GANs|
-|2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|HomoGAN|Projection matrixs|PyTorch|GANs|
+|2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
