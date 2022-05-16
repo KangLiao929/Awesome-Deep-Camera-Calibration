@@ -64,7 +64,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58610-2_32)|Neural geometric parser for single image camera calibration|Lee et al.|Intrinsics + Extrinsics| |PointNet + CNNs|
 |2020|[ICRA](https://ieeexplore.ieee.org/abstract/document/9197378)|Learning camera miscalibration detection|MisCaliDet|Average pixel position difference| |CNNs|
 |2020|[WACV](https://openaccess.thecvf.com/content_WACV_2020/html/Zhang_DeepPTZ_Deep_Self-Calibration_for_PTZ_Cameras_WACV_2020_paper.html)|DeepPTZ: deep self-calibration for PTZ cameras|DeepPTZ|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|Inception-V3|
-|2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.html)|Deep homography estimation for dynamic scenes|DS-DHN|Projection matrixs|TensorFlow|VGG|
+|2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.html)|Deep homography estimation for dynamic scenes|MHN|Projection matrixs|TensorFlow|VGG|
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58604-1_35)|360∘ camera alignment via segmentation|Davidson et al.|Extrinsics| |FCN|
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_38)|Content-aware unsupervised deep homography estimation|CA-UDHN|Projection matrixs|PyTorch|FCN + ResNet|
 |2020|[IROS](https://ieeexplore.ieee.org/abstract/document/9341229)|Deep keypoint-based camera pose estimation with geometric constraints|DeepFEPE|Extrinsics|PyTorch|VGG + PointNet|
@@ -89,7 +89,18 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Progressively_Complementary_Network_for_Fisheye_Image_Rectification_Using_Appearance_Flow_CVPR_2021_paper.html)|Progressively complementary network for fisheye image rectification using appearance flow|PCN|Undistortion|PyTorch|U-Net|
 |2021|[arXiv](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Liao_Multi-Level_Curriculum_for_Training_a_Distortion-Aware_Barrel_Distortion_Rectification_Model_ICCV_2021_paper.html)|Multi-level curriculum for training a distortion-aware barrel distortion rectification model|DaRecNet|Undistortion|TensorFlow|U-Net|
-
+|2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Zhao_Deep_Lucas-Kanade_Homography_for_Multimodal_Image_Alignment_CVPR_2021_paper.html)|Deep Lucas-Kanade homography for multimodal image alignment|DLKFM|Projection matrixs|TensorFlow|Siamese-Net|
+|2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Shao_LocalTrans_A_Multiscale_Local_Transformer_Network_for_Cross-Resolution_Homography_Estimation_ICCV_2021_paper.html)|LocalTrans: A multiscale local transformer network for cross-resolution homography estimation|LocalTrans|Projection matrixs|PyTorch|Transformer|
+|2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Ye_Motion_Basis_Learning_for_Unsupervised_Deep_Homography_Estimation_With_Subspace_ICCV_2021_paper.html)|Motion basis learning for unsupervised deep homography estimation with subspace projection|BasesHomo|Projection matrixs|PyTorch|ResNet|
+|2021|[ICIP](https://ieeexplore.ieee.org/abstract/document/9506264)|Fast and accurate homography estimation using extendable compression network|ShuffleHomoNet|Projection matrixs|TensorFlow|ShuffleNet|
+|2021|[TCSVT](https://arxiv.org/abs/2107.02524)|Depth-aware multi-grid deep homography estimation with contextual correlation|DAMG-Homo|Projection matrixs|TensorFlow|CNNs|
+|2021|[BMVC](https://arxiv.org/abs/2107.02524)|A simple approach to image tilt correction with self-attention MobileNet for smartphones|SA-MobileNet|Extrinsics|TensorFlow|MobileNet|
+|2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.html)|SPEC: Seeing people in the wild with an estimated camera|SPEC|Intrinsics + Extrinsics|PyTorch|ResNet|
+|2022|[ICRA](https://arxiv.org/abs/2112.03325)|Self-supervised camera self-calibration from video|Fang et al.|Intrinsics + Extrinsics|PyTorch|CNNs|
+|2022|[ICASSP](https://ieeexplore.ieee.org/abstract/document/9746819)|Camera calibration through camera projection loss|CPL|Intrinsics + Extrinsics|TensorFlow|Inception-V3|
+|2022|[CVPR](https://arxiv.org/abs/2203.15982)|Iterative Deep Homography Estimation|IHN|Projection matrixs|PyTorch|Siamese-Net|
+|2022|[CVPR](https://arxiv.org/abs/2205.03821)|Unsupervised Homography Estimation with Coplanarity-Aware GAN|HomoGAN|Projection matrixs|PyTorch|GANs|
+|2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|HomoGAN|Projection matrixs|PyTorch|GANs|
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
