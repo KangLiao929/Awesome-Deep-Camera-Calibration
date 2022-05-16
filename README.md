@@ -69,6 +69,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_38)|Content-aware unsupervised deep homography estimation|CA-UDHN|Projection matrixs|PyTorch|FCN + ResNet|
 |2020|[IROS](https://ieeexplore.ieee.org/abstract/document/9341229)|Deep keypoint-based camera pose estimation with geometric constraints|DeepFEPE|Extrinsics|PyTorch|VGG + PointNet|
 |2020|[TIP](https://ieeexplore.ieee.org/abstract/document/8962122)|Model-free distortion rectification framework bridged by distortion distribution map|DDM|Undistortion|Tensorflow|GANs|
+|2020|[TIP](https://ieeexplore.ieee.org/abstract/document/9184235)|Deep face rectification for 360° dual-fisheye cameras|Li et al.|Undistortion| |CNNs|
 |2020|[ICPR](https://ieeexplore.ieee.org/abstract/document/9412305)|Position-aware and symmetry enhanced GAN for radial distortion correction|PSE-GAN|Undistortion| |GANs|
 |2020|[ICIP](https://ieeexplore.ieee.org/abstract/document/9191107)|A simple yet effective pipeline for radial distortion correction|RDC-Net|Undistortion|PyTorch|ResNet|
 |2020|[ICASSP](https://ieeexplore.ieee.org/abstract/document/9054191)|Self-supervised deep learning for fisheye image rectification|FE-GAN|Undistortion|PyTorch|GANs|
@@ -81,6 +82,15 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_CTRL-C_Camera_Calibration_TRansformer_With_Line-Classification_ICCV_2021_paper.html?ref=https://githubhelp.com)|CTRL-C: Camera calibration TRansformer with Line-Classification|CTRL-C|Intrinsics + Extrinsics|PyTorch|Transformer|
 |2021|[ICCVW](https://openaccess.thecvf.com/content/ICCV2021W/PBDL/html/Wakai_Deep_Single_Fisheye_Image_Camera_Calibration_for_Over_180-Degree_Projection_ICCVW_2021_paper.html)|Deep single fisheye image camera calibration for over 180-degree projection of field of view|Wakai et al.|Intrinsics + Extrinsics| |DenseNet|
 |2021|[arXiv](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GennCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
+|2021|[TIP](https://ieeexplore.ieee.org/abstract/document/9366359)|A deep ordinal distortion estimation approach for distortion rectification|OrdianlDistortion|Distortion coefficients|TensorFlow|CNNs|
+|2021|[TCSVT](https://ieeexplore.ieee.org/abstract/document/9567670)|Revisiting radial distortion rectification in polar-coordinates: A new and efficient learning perspective|PolarRecNet|Undistortion|PyTorch|VGG + U-Net|
+|2021|[PRL](https://www.sciencedirect.com/science/article/abs/pii/S0167865521003299)|DQN-based gradual fisheye image rectification|DQN-RecNet|Undistortion|PyTorch|VGG|
+|2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Tan_Practical_Wide-Angle_Portraits_Correction_With_Deep_Structured_Models_CVPR_2021_paper.html)|Practical wide-angle portraits correction with deep structured models
+|Tan et al.|Undistortion|PyTorch|U-Net|
+|2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Progressively_Complementary_Network_for_Fisheye_Image_Rectification_Using_Appearance_Flow_CVPR_2021_paper.html)|Progressively complementary network for fisheye image rectification using appearance flow|PCN|Undistortion|PyTorch|U-Net|
+|2021|[arXiv](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
+|2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Liao_Multi-Level_Curriculum_for_Training_a_Distortion-Aware_Barrel_Distortion_Rectification_Model_ICCV_2021_paper.html)|Multi-level curriculum for training a distortion-aware barrel distortion rectification model|DaRecNet|Undistortion|TensorFlow|U-Net|
+
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
