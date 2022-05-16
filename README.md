@@ -31,13 +31,13 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 ![Overview](/chronology.png)
 |Year|Publication|Title|Abbreviation|Objective|Platform|Network|
 |---|---|---|---|---|---|---|
-|2015|ICIP|Deepfocal: A method for direct focal length estimation [paper](https://ieeexplore.ieee.org/abstract/document/7351024)|DeepFocal|Intrinsics|Caffe|AlexNet|
-|2015|ICCV|Posenet: A convolutional network for real-time 6-dof camera relocalization [paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)|PoseNet|Extrinsics|Caffe|GoogLeNet|
-|2016|BMVC|Horizon lines in the wild [paper](https://arxiv.org/abs/1604.02129)|DeepHorizon|Extrinsics|Caffe|GoogLeNet|
-|2016|CVPR|Detecting vanishing points using global image context in a non-manhattan world [paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhai_Detecting_Vanishing_Points_CVPR_2016_paper.html)|Deep VP|Extrinsics|Caffe|AlexNet|
-|2016|ACCV|Radial lens distortion correction using convolutional neural networks trained with synthesized images [paper](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Deep VP|Distortion coefficients|Caffe|AlexNet|
-|2016|RSSW|Deep image homography estimation [paper](https://arxiv.org/abs/1606.03798)|DHN|Projection matrixs|Caffe|VGG|
-|2017|CVPR|Clkn: Cascaded lucas-kanade networks for image alignment [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Chang_CLKN_Cascaded_Lucas-Kanade_CVPR_2017_paper.html)|CLKN|Projection matrixs|Torch|CNN + Lucas-Kanade layer|
+|2015|[ICIP](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal: A method for direct focal length estimation|DeepFocal|Intrinsics|Caffe|AlexNet|
+|2015|[ICCV](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)|Posenet: A convolutional network for real-time 6-dof camera relocalization|PoseNet|Extrinsics|Caffe|GoogLeNet|
+|2016|[BMVC](https://arxiv.org/abs/1604.02129)|Horizon lines in the wild|DeepHorizon|Extrinsics|Caffe|GoogLeNet|
+|2016|[CVPR](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhai_Detecting_Vanishing_Points_CVPR_2016_paper.html)|Detecting vanishing points using global image context in a non-manhattan world|Deep VP|Extrinsics|Caffe|AlexNet|
+|2016|[ACCV](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Radial lens distortion correction using convolutional neural networks trained with synthesized images|Deep VP|Distortion coefficients|Caffe|AlexNet|
+|2016|[RSSW](https://arxiv.org/abs/1606.03798)|Deep image homography estimation|DHN|Projection matrixs|Caffe|VGG|
+|2017|[CVPR](https://openaccess.thecvf.com/content_cvpr_2017/html/Chang_CLKN_Cascaded_Lucas-Kanade_CVPR_2017_paper.html)|Clkn: Cascaded lucas-kanade networks for image alignment|CLKN|Projection matrixs|Torch|CNN + Lucas-Kanade layer|
 |2017|ICCVW|Homography estimation from image pairs with hierarchical convolutional networks [paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w17/html/Nowruzi_Homography_Estimation_From_ICCV_2017_paper.html)|HierarchicalNet|Projection matrixs|TensorFlow|VGG|
 |2018|CVPR|A perceptual measure for deep single image camera calibration [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Hold-Geoffroy_A_Perceptual_Measure_CVPR_2018_paper.html)|Hold-Geoffroy et al.|Intrinsics + Extrinsics| |DenseNet|
 |2018|CVMP|DeepCalib: a deep learning approach for automatic intrinsic calibration of wide field-of-view cameras [paper](https://dl.acm.org/doi/abs/10.1145/3278471.3278479)|DeepCalib|Intrinsics + Distortion coefficients|TensorFlow|Inception-V3|
