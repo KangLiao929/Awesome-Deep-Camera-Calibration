@@ -77,7 +77,10 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Baradad_Height_and_Uprightness_Invariance_for_3D_Prediction_From_a_Single_CVPR_2020_paper.html)|Height and uprightness invariance for 3d prediction from a single view|Baradad et al.|Intrinsics + Extrinsics|PyTorch|CNNs|
 |2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Zheng_What_Does_Plate_Glass_Reveal_About_Camera_Calibration_CVPR_2020_paper.html)|What does plate glass reveal about camera calibration?|Zheng et al.|Intrinsics + Extrinsics| |CNNs|
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58621-8_19)|Single view metrology in the wild|Zhu et al.|Intrinsics + Extrinsics|PyTorch|CNNs + PointNet|
-
+|2021|[TCI](https://ieeexplore.ieee.org/abstract/document/9495157)|Online training of stereo self-calibration using monocular depth estimation|StereoCaliNet|Extrinsics|PyTorch|U-Net|
+|2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_CTRL-C_Camera_Calibration_TRansformer_With_Line-Classification_ICCV_2021_paper.html?ref=https://githubhelp.com)|CTRL-C: Camera calibration TRansformer with Line-Classification|CTRL-C|Intrinsics + Extrinsics|PyTorch|Transformer|
+|2021|[ICCVW](https://openaccess.thecvf.com/content/ICCV2021W/PBDL/html/Wakai_Deep_Single_Fisheye_Image_Camera_Calibration_for_Over_180-Degree_Projection_ICCVW_2021_paper.html)|Deep single fisheye image camera calibration for over 180-degree projection of field of view|Wakai et al.|Intrinsics + Extrinsics| |DenseNet|
+|2021|[arXiv](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GennCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 
 ## 📋Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
