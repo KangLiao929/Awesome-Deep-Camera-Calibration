@@ -35,7 +35,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2015|[ICCV](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)|Posenet: A convolutional network for real-time 6-dof camera relocalization|PoseNet|Extrinsics|Caffe|GoogLeNet|
 |2016|[BMVC](https://arxiv.org/abs/1604.02129)|Horizon lines in the wild|DeepHorizon|Extrinsics|Caffe|GoogLeNet|
 |2016|[CVPR](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhai_Detecting_Vanishing_Points_CVPR_2016_paper.html)|Detecting vanishing points using global image context in a non-manhattan world|DeepVP|Extrinsics|Caffe|AlexNet|
-|2016|[ACCV](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Radial lens distortion correction using convolutional neural networks trained with synthesized images|Deep VP|Distortion coefficients|Caffe|AlexNet|
+|2016|[ACCV](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)|Radial lens distortion correction using convolutional neural networks trained with synthesized images|Rong et al.|Distortion coefficients|Caffe|AlexNet|
 |2016|[RSSW](https://arxiv.org/abs/1606.03798)|Deep image homography estimation|DHN|Projection matrixs|Caffe|VGG|
 |2017|[CVPR](https://openaccess.thecvf.com/content_cvpr_2017/html/Chang_CLKN_Cascaded_Lucas-Kanade_CVPR_2017_paper.html)|Clkn: Cascaded lucas-kanade networks for image alignment|CLKN|Projection matrixs|Torch|CNN + Lucas-Kanade layer|
 |2017|[ICCVW](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w17/html/Nowruzi_Homography_Estimation_From_ICCV_2017_paper.html)|Homography estimation from image pairs with hierarchical convolutional networks|HierarchicalNet|Projection matrixs|TensorFlow|VGG|
