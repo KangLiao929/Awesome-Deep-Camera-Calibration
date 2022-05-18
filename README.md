@@ -96,6 +96,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[TCSVT](https://arxiv.org/abs/2107.02524)|Depth-aware multi-grid deep homography estimation with contextual correlation|DAMG-Homo|Projection matrixs|TensorFlow|CNNs|
 |2021|[BMVC](https://arxiv.org/abs/2107.02524)|A simple approach to image tilt correction with self-attention MobileNet for smartphones|SA-MobileNet|Extrinsics|TensorFlow|MobileNet|
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.html)|SPEC: Seeing people in the wild with an estimated camera|SPEC|Intrinsics + Extrinsics|PyTorch|ResNet|
+|2021|[CVPR]([https://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.html](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Wide-Baseline_Relative_Camera_Pose_Estimation_With_Directional_Learning_CVPR_2021_paper.pdf))|Wide-Baseline Relative Camera Pose Estimation with Directional Learning|DirectionNet|Extrinsics|TensorFlow|U-Net|
 |2022|[ICRA](https://arxiv.org/abs/2112.03325)|Self-supervised camera self-calibration from video|Fang et al.|Intrinsics + Extrinsics|PyTorch|CNNs|
 |2022|[ICASSP](https://ieeexplore.ieee.org/abstract/document/9746819)|Camera calibration through camera projection loss|CPL|Intrinsics + Extrinsics|TensorFlow|Inception-V3|
 |2022|[CVPR](https://arxiv.org/abs/2203.15982)|Iterative Deep Homography Estimation|IHN|Projection matrixs|PyTorch|Siamese-Net|
