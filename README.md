@@ -139,7 +139,7 @@ If you find the repository helpful in your resarch, please cite the following pa
 ```
 @article{Kang,
   title={Deep Learning for Camera Calibration: A Survey},
-  author={Kang Liao},
+  author={Kang Liao, Chunyu Lin, Yunchao Wei, Yao Zhao},
   journal={},
   year={2022}
 }
