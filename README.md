@@ -69,7 +69,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2019|[ICCV](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_Learning_Perspective_Undistortion_of_Portraits_ICCV_2019_paper.html)|Learning perspective undistortion of portraits|Zhao et al.|Intrinsics + Undistortion||VGG + U-Net|
 |2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Sha_End-to-End_Camera_Calibration_for_Broadcast_Videos_CVPR_2020_paper.html)|End-to-end camera calibration for broadcast videos|Sha et al.|Projection matrixs|TensorFlow|Siamese-Net + U-Net|
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58610-2_32)|Neural geometric parser for single image camera calibration|Lee et al.|Intrinsics + Extrinsics| |PointNet + CNNs|
-|2020|[ICRA](https://ieeexplore.ieee.org/abstract/document/9197378)|Learning camera miscalibration detection|MisCaliDet|Average pixel position difference| |CNNs|
+|2020|[ICRA](https://ieeexplore.ieee.org/abstract/document/9197378)|Learning camera miscalibration detection|MisCaliDet|Average pixel position difference|TensorFlow|CNNs|
 |2020|[WACV](https://openaccess.thecvf.com/content_WACV_2020/html/Zhang_DeepPTZ_Deep_Self-Calibration_for_PTZ_Cameras_WACV_2020_paper.html)|DeepPTZ: deep self-calibration for PTZ cameras|DeepPTZ|Intrinsics + Extrinsics + Distortion coefficients|PyTorch|Inception-V3|
 |2020|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.html)|Deep homography estimation for dynamic scenes|MHN|Projection matrixs|TensorFlow|VGG|
 |2020|[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58604-1_35)|360∘ camera alignment via segmentation|Davidson et al.|Extrinsics| |FCN|
