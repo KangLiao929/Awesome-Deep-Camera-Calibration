@@ -110,6 +110,12 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[CVPR](https://arxiv.org/abs/2203.15982)|Iterative Deep Homography Estimation|IHN|Projection matrixs|PyTorch|Siamese-Net|
 |2022|[CVPR](https://arxiv.org/abs/2205.03821)|Unsupervised Homography Estimation with Coplanarity-Aware GAN|HomoGAN|Projection matrixs|PyTorch|GANs|
 |2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Semi-Supervised_Wide-Angle_Portraits_Correction_by_Multi-Scale_Transformer_CVPR_2022_paper.pdf)|Semi-Supervised Wide-Angle Portraits Correction by Multi-Scale Transformer|SS-WPC|Undistortion|PyTorch|Transformer|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_Learning_Adaptive_Warping_for_Real-World_Rolling_Shutter_Correction_CVPR_2022_paper.pdf)|Learning Adaptive Warping for Real-World Rolling Shutter Correction|AW-RSC|Undistortion| |CNNs|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_EvUnroll_Neuromorphic_Events_Based_Rolling_Shutter_Image_Correction_CVPR_2022_paper.pdf)|EvUnroll: Neuromorphic Events based Rolling Shutter Image Correction|EvUnroll|Undistortion|PyTorch|U-Net|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Do_Learning_To_Detect_Scene_Landmarks_for_Camera_Localization_CVPR_2022_paper.pdf)|Learning to Detect Scene Landmarks for Camera Localization|Do et al.|Extrinsics|PyTorch|ResNet|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Parameshwara_DiffPoseNet_Direct_Differentiable_Camera_Pose_Estimation_CVPR_2022_paper.pdf)|DiffPoseNet: Direct Differentiable Camera Pose Estimation|DiffPoseNet|Extrinsics|PyTorch|CNNs + LSTM|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.pdf)|SceneSqueezer: Learning to Compress Scene for Camera Relocalization|SceneSqueezer|Extrinsics|PyTorch|Transformer|
+|2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Ponimatkin_Focal_Length_and_Object_Pose_Estimation_via_Render_and_Compare_CVPR_2022_paper.pdf)|Focal Length and Object Pose Estimation via Render and Compare|FocalPose|Intrinsics + Extrinsics|PyTorch|CNNs|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
