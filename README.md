@@ -111,6 +111,8 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.html)|SPEC: Seeing people in the wild with an estimated camera|SPEC|Intrinsics + Extrinsics|PyTorch|ResNet|
 |2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Wide-Baseline_Relative_Camera_Pose_Estimation_With_Directional_Learning_CVPR_2021_paper.pdf)|Wide-Baseline Relative Camera Pose Estimation with Directional Learning|DirectionNet|Extrinsics|TensorFlow|U-Net|
 |2021|[CVPR](https://arxiv.org/pdf/2104.01601.pdf)|Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes|RSCD-Net|Undistortion|PyTorch|FCN|
+|2021|[CVPRW](https://openaccess.thecvf.com/content/CVPR2021W/WAD/papers/Lv_LCCNet_LiDAR_and_Camera_Self-Calibration_Using_Cost_Volume_Network_CVPRW_2021_paper.pdf)|LCCNet: LiDAR and Camera Self-Calibration using Cost Volume Network|LCCNet|Camera + LiDAR|PyTorch|CNNs|
+|2021|[Sensors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8662422/pdf/sensors-21-08112.pdf)|CFNet: LiDAR-Camera Registration Using Calibration Flow Network|CFNet|Camera + LiDAR|PyTorch|FCN|
 |2022|[CVPR](https://arxiv.org/abs/2203.08586)|Deep vanishing point detection: Geometric priors make dataset variations vanish|DVPD|Extrinsics|PyTorch|CNNs|
 |2022|[ICRA](https://arxiv.org/abs/2112.03325)|Self-supervised camera self-calibration from video|Fang et al.|Intrinsics + Extrinsics|PyTorch|CNNs|
 |2022|[ICASSP](https://ieeexplore.ieee.org/abstract/document/9746819)|Camera calibration through camera projection loss|CPL|Intrinsics + Extrinsics|TensorFlow|Inception-V3|
@@ -124,6 +126,8 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.pdf)|SceneSqueezer: Learning to Compress Scene for Camera Relocalization|SceneSqueezer|Extrinsics|PyTorch|Transformer|
 |2022|[arXiv](https://arxiv.org/abs/2207.01925)|FishFormer: Annulus Slicing-based Transformer for Fisheye Rectification with Efficacy Domain Exploration|FishFormer|Undistortion|PyTorch|Transformer|
 |2022|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Ponimatkin_Focal_Length_and_Object_Pose_Estimation_via_Render_and_Compare_CVPR_2022_paper.pdf)|Focal Length and Object Pose Estimation via Render and Compare|FocalPose|Intrinsics + Extrinsics|PyTorch|CNNs|
+|2022|[arXiv](https://arxiv.org/pdf/2203.09385.pdf)|DXQ-Net: Differentiable LiDAR-Camera Extrinsic Calibration Using Quality-aware Flow|DXQ-Net|Camera + LiDAR|PyTorch|CNNs + RNNs|
+|2022|[IROS](https://arxiv.org/pdf/2202.00158.pdf)|Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection|CCS-Net|Undistortion|PyTorch|UNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
