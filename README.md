@@ -105,7 +105,6 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[PRL](https://www.sciencedirect.com/science/article/abs/pii/S0167865521003299)|DQN-based gradual fisheye image rectification|DQN-RecNet|Undistortion|PyTorch|VGG|
 |2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Tan_Practical_Wide-Angle_Portraits_Correction_With_Deep_Structured_Models_CVPR_2021_paper.html)|Practical wide-angle portraits correction with deep structured models|Tan et al.|Undistortion|PyTorch|U-Net|
 |2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Progressively_Complementary_Network_for_Fisheye_Image_Rectification_Using_Appearance_Flow_CVPR_2021_paper.html)|Progressively complementary network for fisheye image rectification using appearance flow|PCN|Undistortion|PyTorch|U-Net|
-|2021|[arXiv](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Liao_Multi-Level_Curriculum_for_Training_a_Distortion-Aware_Barrel_Distortion_Rectification_Model_ICCV_2021_paper.html)|Multi-level curriculum for training a distortion-aware barrel distortion rectification model|DaRecNet|Undistortion|TensorFlow|U-Net|
 |2021|[CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Zhao_Deep_Lucas-Kanade_Homography_for_Multimodal_Image_Alignment_CVPR_2021_paper.html)|Deep Lucas-Kanade homography for multimodal image alignment|DLKFM|Projection matrixs|TensorFlow|Siamese-Net|
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Shao_LocalTrans_A_Multiscale_Local_Transformer_Network_for_Cross-Resolution_Homography_Estimation_ICCV_2021_paper.html)|LocalTrans: A multiscale local transformer network for cross-resolution homography estimation|LocalTrans|Projection matrixs|PyTorch|Transformer|
@@ -134,6 +133,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[arXiv](https://arxiv.org/pdf/2203.09385.pdf)|DXQ-Net: Differentiable LiDAR-Camera Extrinsic Calibration Using Quality-aware Flow|DXQ-Net|Camera + LiDAR|PyTorch|CNNs + RNNs|
 |2022|[ITSC](https://arxiv.org/abs/2207.03704)|SST-Calib: Simultaneous Spatial-Temporal Parameter Calibration between LIDAR and Camera|SST-Calib|Camera + LiDAR|PyTorch|CNNs|
 |2022|[IROS](https://arxiv.org/pdf/2202.00158.pdf)|Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection|CCS-Net|Undistortion|PyTorch|UNet|
+|2022|[TIP](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
