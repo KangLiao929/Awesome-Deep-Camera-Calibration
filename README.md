@@ -137,6 +137,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[ITSC](https://arxiv.org/abs/2207.03704)|SST-Calib: Simultaneous Spatial-Temporal Parameter Calibration between LIDAR and Camera|SST-Calib|Camera + LiDAR|PyTorch|CNNs|
 |2022|[IROS](https://arxiv.org/pdf/2202.00158.pdf)|Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection|CCS-Net|Undistortion|PyTorch|UNet|
 |2022|[TIP](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
+|2022|[TIV](https://ieeexplore.ieee.org/document/9802778)|ATOP: An Attention-to-Optimization Approach for Automatic LiDAR-Camera Calibration Via Cross-Modal Object Matching|ATOP|Camera + LiDAR||CNNs|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
