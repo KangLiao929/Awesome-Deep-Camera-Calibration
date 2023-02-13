@@ -99,7 +99,6 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2021|[TCI](https://ieeexplore.ieee.org/abstract/document/9495157)|Online training of stereo self-calibration using monocular depth estimation|StereoCaliNet|Extrinsics|PyTorch|U-Net|
 |2021|[ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_CTRL-C_Camera_Calibration_TRansformer_With_Line-Classification_ICCV_2021_paper.html?ref=https://githubhelp.com)|CTRL-C: Camera calibration TRansformer with Line-Classification|CTRL-C|Intrinsics + Extrinsics|PyTorch|Transformer|
 |2021|[ICCVW](https://openaccess.thecvf.com/content/ICCV2021W/PBDL/html/Wakai_Deep_Single_Fisheye_Image_Camera_Calibration_for_Over_180-Degree_Projection_ICCVW_2021_paper.html)|Deep single fisheye image camera calibration for over 180-degree projection of field of view|Wakai et al.|Intrinsics + Extrinsics| |DenseNet|
-|2021|[arXiv](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GenCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 |2021|[TIP](https://ieeexplore.ieee.org/abstract/document/9366359)|A deep ordinal distortion estimation approach for distortion rectification|OrdianlDistortion|Distortion coefficients|TensorFlow|CNNs|
 |2021|[TCSVT](https://ieeexplore.ieee.org/abstract/document/9567670)|Revisiting radial distortion rectification in polar-coordinates: A new and efficient learning perspective|PolarRecNet|Undistortion|PyTorch|VGG + U-Net|
 |2021|[PRL](https://www.sciencedirect.com/science/article/abs/pii/S0167865521003299)|DQN-based gradual fisheye image rectification|DQN-RecNet|Undistortion|PyTorch|VGG|
@@ -140,6 +139,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[TIV](https://ieeexplore.ieee.org/document/9802778)|ATOP: An Attention-to-Optimization Approach for Automatic LiDAR-Camera Calibration Via Cross-Modal Object Matching|ATOP|Camera + LiDAR||CNNs|
 |2022|[ICRA](https://ieeexplore.ieee.org/document/9811945)|FusionNet: Coarse-to-Fine Extrinsic Calibration Network of LiDAR and Camera with Hierarchical Point-pixel Fusion|FusionNet|Camera + LiDAR|PyTorch|CNNs+PointNet|
 |2022|[TIM](https://ieeexplore.ieee.org/document/9623545)|Keypoint-Based LiDAR-Camera Online Calibration With Robust Geometric Network|RKGCNet|Camera + LiDAR|PyTorch|CNNs+PointNet|
+|2022|[ECCV](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GenCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
 ## 📋Datasets
