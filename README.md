@@ -28,8 +28,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 1. [Basics](#Basics)
 2. [Methods](#Methods)
 3. [Datasets](#Datasets)
-4. [Metrics](#Metrics)
-5. [Citation](#Citation)
+4. [Citation](#Citation)
 
 ## 📋Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
@@ -149,21 +148,6 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |LOL [paper](https://arxiv.org/abs/1808.04560)|500|RGB|Real|No|Paired|[Dataset](https://daooshee.github.io/BMVC2018website/)|
 
 
-
-## 📋Metrics
-|Abbreviation|Full-/Non-Reference|Platform|Code|
-|---|---|---|---|
-|MAE (Mean Absolute Error)|Full-Reference| | |
-|MSE (Mean Square Error)|Full-Reference| | |
-|PSNR (Peak Signal-to-Noise Ratio)|Full-Reference| | |
-|SSIM (Structural Similarity Index Measurement)|Full-Reference|MATLAB|[Code](http://www.cns.nyu.edu/~lcv/ssim/ssim_index.m) |
-|LPIPS (Learned Perceptual Image Patch Similarity)|Full-Reference|PyTorch|[Code](https://github.com/richzhang/PerceptualSimilarity) |
-|LOE (Lightness Order Error)|Non-Reference|MATLAB|[Code](https://drive.google.com/drive/folders/0B3YzCh6G4aubLUhQMzdzR05nSDg?usp=sharing) |
-|NIQE (Naturalness Image Quality Evaluator)|Non-Reference|MATLAB|[Code](https://github.com/utlive/niqe)|
-|PI (Perceptual Index)|Non-Reference|MATLAB|[Code](https://github.com/chaoma99/sr-metric)|
-|SPAQ (Smartphone Photography Attribute and Quality)|Non-Reference|PyTorch|[Code](https://github.com/h4nwei/SPAQ)|
-|NIMA (Neural Image Assessment)|Non-Reference|PyTorch/TensorFlow|[Code](https://github.com/kentsyx/Neural-IMage-Assessment)/[Code](https://github.com/titu1994/neural-image-assessment)|
-|MUSIQ (Multi-scale Image Quality Transformer)|Non-Reference|TensorFlow|[Code](https://github.com/google-research/google-research/tree/master/musiq)|
 ## 📜</g-emoji>License
 The code, platform, and dataset are made available for academic research purpose only. 
 
@@ -178,8 +162,6 @@ If you find the repository helpful in your resarch, please cite the following pa
 }
 ```
 ## 📋Paper
-[Official Version]()
-
 [arXiv Version]()
 
 
