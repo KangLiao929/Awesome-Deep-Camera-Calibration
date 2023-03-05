@@ -34,7 +34,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
 
 ## 📋Methods
-![Overview](/timeline.png)
+![Overview](/time_line.png)
 ![Overview](/taxonomy.png)
 ![Overview](/benchmark.png)
 |Year|Publication|Title|Abbreviation|Objective|Platform|Network|
