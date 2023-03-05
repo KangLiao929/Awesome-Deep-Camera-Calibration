@@ -35,6 +35,8 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 ## 📋Methods
 ![Overview](/timeline.png)
+![Overview](/taxonomy.png)
+![Overview](/benchmark.png)
 |Year|Publication|Title|Abbreviation|Objective|Platform|Network|
 |---|---|---|---|---|---|---|
 |2015|[ICIP](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal: A method for direct focal length estimation|DeepFocal|Intrinsics|Caffe|AlexNet|
