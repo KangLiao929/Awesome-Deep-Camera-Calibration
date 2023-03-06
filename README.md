@@ -9,35 +9,46 @@
 
 ## [Deep Learning for Camera Calibration and Beyond: A Survey]()
 
-This repository provides：
+Our repository provides：
 
- **1)** a time line of the development in this research community
+ **1)** a time line of the development in the related research community
  **2)** a taxonomy of the survey
- **3)** a publick and holistic benchmark 
- **4)** collects deep learning-based camera calibration **methods, datasets, and evaluation metrics**
- **5)** collects deep learning-based camera calibration **methods, datasets, and evaluation metrics**
+ **3)** a public and holistic benchmark 
+ **4)** collects deep learning-based camera calibration **Publication, Objective, Network**
+ **5)** dataset summary
 
 More content and details can be found in our Survey Paper: [Deep Learning for Camera Calibration and Beyond: A Survey](). 
-
 
 
 ## 📣News
 1. The survey of arXiv version is online.
 
 
-## 🌱Contents
+## 🚩Contents 
 1. [Basics](#Basics)
-2. [Methods](#Methods)
-3. [Datasets](#Datasets)
-4. [Citation](#Citation)
+2. [Taxonomy](#Taxonomy)
+3. [Benchmark](#Benchmark)
+4. [Methods](#Methods)
+5. [Dataset](#Dataset)
+6. [Citation](#Citation)
 
-## 📋Basics
+## 🚩Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
+* [A Flexible New Technique for Camera Calibration](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf) - Zhengyou Zhang. (2000)
 
-## 📋Methods
-![Overview](/time_line.png)
+## 🚩Taxonomy
 ![Overview](/taxonomy.png)
+The structural and hierarchical taxonomy of camera calibration with deep learning. Some classical methods are listed under each category.
+
+![Overview](/time_line.png)
+A concise milestone of deep learning-based camera calibration methods. We classify all methods based on the uncalibrated camera model and its extended applications: standard model, distortion model, cross-view model, and cross-sensor model.
+
+## 🚩Taxonomy
 ![Overview](/benchmark.png)
+Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We make this benchmark available at Google Drive.
+
+## 🚩Methods
+
 |Year|Publication|Title|Abbreviation|Objective|Platform|Network|
 |---|---|---|---|---|---|---|
 |2015|[ICIP](https://ieeexplore.ieee.org/abstract/document/7351024)|Deepfocal: A method for direct focal length estimation|DeepFocal|Intrinsics|Caffe|AlexNet|
@@ -145,7 +156,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 |2022|[ECCV](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GenCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
-## 📋Datasets
+## 🚩Datasets
 |Abbreviation|Number|Format|Real/Synetic|Video|Paired/Unpaired/Application|Dataset|
 |---|---|---|---|---|---|---|
 |LOL [paper](https://arxiv.org/abs/1808.04560)|500|RGB|Real|No|Paired|[Dataset](https://daooshee.github.io/BMVC2018website/)|
@@ -164,10 +175,6 @@ If you find the repository helpful in your resarch, please cite the following pa
   year={2022}
 }
 ```
-## 📋Paper
-[arXiv Version]()
-
-
 ## 📭Contact
 
 ```
