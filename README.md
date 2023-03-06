@@ -10,7 +10,7 @@
 ## [Deep Learning for Camera Calibration and Beyond: A Survey]()
 
 ![Overview](/teaser.png)
-<center>Popular calibration objectives, models, and extended applications in camera calibration.</center>
+**<div align="center">Popular calibration objectives, models, and extended applications in camera calibration</div>**
 
 Our repository provides：
 
