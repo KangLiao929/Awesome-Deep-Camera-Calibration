@@ -9,6 +9,9 @@
 
 ## [Deep Learning for Camera Calibration and Beyond: A Survey]()
 
+![Overview](/teaser.png)
+Popular calibration objectives, models, and extended applications in camera calibration.
+
 Our repository provides：
 
  **1)** a time line of the development in the related research community
@@ -43,7 +46,7 @@ The structural and hierarchical taxonomy of camera calibration with deep learnin
 ![Overview](/time_line.png)
 A concise milestone of deep learning-based camera calibration methods. We classify all methods based on the uncalibrated camera model and its extended applications: standard model, distortion model, cross-view model, and cross-sensor model.
 
-## 🚩Taxonomy
+## 🚩Benchmark
 ![Overview](/benchmark.png)
 Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We make this benchmark available at Google Drive.
 
