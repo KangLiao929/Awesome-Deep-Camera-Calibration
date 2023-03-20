@@ -166,6 +166,7 @@ Overview of our collected benchmark, which covers all models reviewed in this su
 |MS-COCO|[ECCV](https://link.springer.com/chapter/10.1007/978-3-319-10602-1_48)|Real|Image|Base|[Dataset](https://cocodataset.org/#download)|
 |SUN360|[CVPR](https://vision.cs.princeton.edu/projects/2012/SUN360/paper.pdf)|Real|Image|Base|[Dataset](https://vision.cs.princeton.edu/projects/2012/SUN360/data/)|
 |Places2|[PAMI](http://places2.csail.mit.edu/PAMI_places.pdf)|Real|Image|Base|[Dataset](http://places2.csail.mit.edu/download.html)|
+|CelebA|[ICCV](https://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)|Real|Image|Base|[Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)|
 |1DSfM|[ECCV](https://www.cs.cornell.edu/projects/1dsfm/docs/1DSfM_ECCV14.pdf)|Real|Image|Focal Length|[Dataset](https://daooshee.github.io/BMVC2018website/)|
 |Cambridge Landmarks|[ICCV](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf)|Real|Video|Extrinsics|[Dataset](https://www.repository.cam.ac.uk/handle/1810/251342;jsessionid=90AB1617B8707CD387CBF67437683F77)|
 |HLW|[BMVC](http://www.bmva.org/bmvc/2016/papers/paper020/paper020.pdf)|Real|Image|Horizon Line|[Dataset](https://mvrl.cse.wustl.edu/datasets/hlw/)|
@@ -173,12 +174,15 @@ Overview of our collected benchmark, which covers all models reviewed in this su
 |ECD|[ECCV](https://www.robots.ox.ac.uk/~vgg/publications/2010/Barinova10a/Barinova10a.pdf)|Real|Image|Vanishing Point|[Dataset](https://www.robots.ox.ac.uk/~vgg/publications/2010/Barinova10a/Barinova10a.pdf)|
 |SU3 Wireframe|[ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Learning_to_Reconstruct_3D_Manhattan_Wireframes_From_a_Single_Image_ICCV_2019_paper.pdf)|Synthetic|Image|Vanishing Point|[Dataset](https://github.com/zhou13/shapeunity)|
 |ScanNet|[CVPR](https://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf)|Real|Video|Extrinsics|[Dataset](http://www.scan-net.org/#code-and-data)|
+|Indoor-6|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Do_Learning_To_Detect_Scene_Landmarks_for_Camera_Localization_CVPR_2022_paper.pdf)|Real|Image|Extrinsics|[Dataset](https://github.com/microsoft/SceneLandmarkLocalization)|
 |DeepVP|[ICRA](http://ilab.usc.edu/publications/doc/Chang_etal18icra.pdf)|Real|Image|Vanishing Point|[Dataset](http://ilab.usc.edu/kai/deepvp/)|
 |CAHomo|[ECCV](https://arxiv.org/pdf/1909.05983.pdf)|Real|Video|Homography|[Dataset](https://github.com/JirongZhang/DeepHomography)|
 |MHN|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.pdf)|Real|Video|Homography|[Dataset](https://github.com/lcmhoang/hmg-dynamics)|
 |UDIS|[TIP](https://arxiv.org/abs/2106.12859)|Real|Video|Homography|[Dataset](https://github.com/nie-lang/UnsupervisedDeepImageStitching)|
 |Carla-RS|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Deep_Shutter_Unrolling_Network_CVPR_2020_paper.pdf)|Synthetic|Video|RS-Distortion|[Dataset](https://github.com/ethliup/DeepUnrollNet)|
 |Fastec-RS|[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Deep_Shutter_Unrolling_Network_CVPR_2020_paper.pdf)|Synthetic|Video|RS-Distortion|[Dataset](https://github.com/ethliup/DeepUnrollNet)|
+|BS-RSC|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_Learning_Adaptive_Warping_for_Real-World_Rolling_Shutter_Correction_CVPR_2022_paper.pdf)|Real|Video|RS-Distortion|[Dataset](https://github.com/ljzycmd/BSRSC)|
+|GEV-RS|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_EvUnroll_Neuromorphic_Events_Based_Rolling_Shutter_Image_Correction_CVPR_2022_paper.pdf)|Real|Video|RS-Distortion|[Dataset](https://github.com/zxyemo/EvUnroll)|
 |LMS|[ICASSP](https://ieeexplore.ieee.org/document/7471935)|Both|Video|Radial Distortion|[Dataset](https://www.lms.tf.fau.eu/research/downloads/fisheye-data-set/)|
 |SS-WPC|[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Semi-Supervised_Wide-Angle_Portraits_Correction_by_Multi-Scale_Transformer_CVPR_2022_paper.pdf)|Real|Image|Radial Distortion|[Dataset](https://github.com/megvii-research/Portraits_Correction)|
 
