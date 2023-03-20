@@ -48,7 +48,7 @@ A concise milestone of deep learning-based camera calibration methods. We classi
 
 ## 🚩Benchmark
 ![Overview](/benchmark.png)
-Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We make this benchmark available at Google Drive.
+Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We will make this benchmark available soon at Google Drive.
 
 ## 🚩Methods
 
