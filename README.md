@@ -34,6 +34,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 4. [Methods](#Methods)
 5. [Dataset](#Dataset)
 6. [Citation](#Citation)
+7. [知乎导读](#知乎导读)
 
 ## 🚩Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
@@ -202,6 +203,9 @@ Year = {2023},
 Journal = {arXiv:2303.10559}
 }
 ```
+## 🚩知乎导读
+[导读链接](https://zhuanlan.zhihu.com/p/619217025)
+
 ## 📭Contact
 
 ```
