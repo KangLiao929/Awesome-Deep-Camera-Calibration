@@ -7,8 +7,6 @@
 <!-- [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) -->
 <!-- [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) -->
 
-## [Deep Learning for Camera Calibration and Beyond: A Survey](https://arxiv.org/pdf/2303.10559.pdf)
-
 ![Overview](/teaser.png)
 **<div align="center">Popular calibration objectives, models, and extended applications in camera calibration</div>**
 
