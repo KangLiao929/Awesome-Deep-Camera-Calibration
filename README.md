@@ -154,7 +154,7 @@ Overview of our collected benchmark, which covers all models reviewed in this su
 |2022|[TIP](https://arxiv.org/abs/2011.14611)|SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses|SIR|Undistortion|PyTorch|ResNet|
 |2022|[TIV](https://ieeexplore.ieee.org/document/9802778)|ATOP: An Attention-to-Optimization Approach for Automatic LiDAR-Camera Calibration Via Cross-Modal Object Matching|ATOP|Camera + LiDAR||CNNs|
 |2022|[ICRA](https://ieeexplore.ieee.org/document/9811945)|FusionNet: Coarse-to-Fine Extrinsic Calibration Network of LiDAR and Camera with Hierarchical Point-pixel Fusion|FusionNet|Camera + LiDAR|PyTorch|CNNs+PointNet|
-|2022|[TIM](https://ieeexplore.ieee.org/document/9623545)|Keypoint-Based LiDAR-Camera Online Calibration With Robust Geometric Network|RKGCNet|Camera + LiDAR|PyTorch|CNNs+PointNet|
+|2022|[TIM](https://ieeexplore.ieee.org/document/9623545)|Keypoint-Based LiDAR-Camera Online Calibration With Robust Geometric Network|RGKCNet|Camera + LiDAR|PyTorch|CNNs+PointNet|
 |2022|[ECCV](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GenCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
