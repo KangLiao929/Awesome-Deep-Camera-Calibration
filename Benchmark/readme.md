@@ -35,7 +35,7 @@ We collected RGB and point cloud data from Apollo[6], DAIR-V2X[7], KITTI[8], KUC
 
 
 ## Reference
-```bash
+```markdown
 [1] Xiaoqing Yin, Xinchao Wang, Jun Yu, Maojun Zhang, Pascal Fua, and Dacheng Tao. "Fisheyerecnet: A multi-context collaborative deep network for fisheye image rectification." European Conference on Computer Vision (ECCV), 2018.
 [2] Kang Liao, Chunyu Lin, Yao Zhao, and Moncef Gabbouj. "DR-GAN: Automatic radial distortion rectification using conditional GAN in real-time." IEEE Transactions on Circuits and Systems for Video Technology, 2019.
 [3] D. DeTone, T. Malisiewicz, and A. Rabinovich, “Deep image homography estimation,” arXiv preprint arXiv:1606.03798, 2016.
