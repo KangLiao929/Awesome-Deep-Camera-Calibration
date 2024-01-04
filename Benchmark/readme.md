@@ -8,6 +8,14 @@ We collected 300 high-resolution images on the Internet [1], captured by popular
 
 ### Directory/Data Structure and Parsing
 
+```
+├── Dataset
+|   ├── Pinhole
+|   |   ├── Canon EF-S 18-135mm F3.5-5.6 IS USM_18mm.jpg
+|   |   ├── Canon EF-S 18-135mm F3.5-5.6 IS USM_24mm.jpg
+|   |   ├── ......
+```
+
 ## :circus_tent: Distortion Camera Model 
 
 ### Brief Description
