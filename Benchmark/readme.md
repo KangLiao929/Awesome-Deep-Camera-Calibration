@@ -4,7 +4,7 @@
 
 ### Brief Description
 
-We collected 300 high-resolution images on the Internet, captured by popular digital cameras such as Canon, Fujifilm, Nikon, Olympus, Sigma, Sony, etc. For each image, we provide the specific focal length of its lens. We have included a diverse range of subjects, including landscapes, portraits, wildlife, architecture, etc. The range of focal length is from 4.5mm to 600mm, allowing users to explore the different effects that different lenses can have on an image.
+We collected 300 high-resolution images on the Internet [1], captured by popular digital cameras such as Canon, Fujifilm, Nikon, Olympus, Sigma, Sony, etc. For each image, we provide the specific focal length of its lens. We have included a diverse range of subjects, including landscapes, portraits, wildlife, architecture, etc. The range of focal length is from 4.5mm to 600mm, allowing users to explore the different effects that different lenses can have on an image.
 
 ### Directory/Data Structure and Parsing
 
@@ -28,7 +28,15 @@ We selected 500 testing samples at random from each of the four representative d
 
 ### Brief Description
 
-We collected RGB and point cloud data from Apollo, DAIR-V2X, KITTI, KUCL, NuScenes, and ONCE. Around 300 data pairs with calibration parameters are included in each category. The datasets are captured in different countries to provide enough variety. Each dataset has a different sensor setup, obtaining camera-LiDAR data with varying image resolution, LiDAR scan pattern, and camera-LiDAR relative location. The image resolution ranges from 2448x2048 to 1242x375, while the LiDAR sensors are from Velodyne and Hesai, with 16, 32, 40, 64, and 128 beams. They include not only normal surrounding multi-view images but also small baseline multi-view data. Additionally, we also added random disturbance of around 20 degrees rotation and 1.5 meters translation based on classical settings~\cite{schneider2017regnet} to simulate vibration and collision.
+We collected RGB and point cloud data from Apollo, DAIR-V2X, KITTI, KUCL, NuScenes, and ONCE. Around 300 data pairs with calibration parameters are included in each category. The datasets are captured in different countries to provide enough variety. Each dataset has a different sensor setup, obtaining camera-LiDAR data with varying image resolution, LiDAR scan pattern, and camera-LiDAR relative location. The image resolution ranges from 2448x2048 to 1242x375, while the LiDAR sensors are from Velodyne and Hesai, with 16, 32, 40, 64, and 128 beams. They include not only normal surrounding multi-view images but also small baseline multi-view data. Additionally, we also added random disturbance of around 20 degrees rotation and 1.5 meters translation based on classical settings to simulate vibration and collision.
 
 ### Directory/Data Structure and Parsing
+
+
+
+## Reference
+```bash
+[1] https://www.dpreview.com/sample-galleries
+```
+
 
