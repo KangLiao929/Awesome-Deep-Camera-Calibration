@@ -4,9 +4,10 @@
 
 ### Brief Description
 
-We collected 300 high-resolution images on the Internet [1], captured by popular digital cameras such as Canon, Fujifilm, Nikon, Olympus, Sigma, Sony, etc. For each image, we provide the specific focal length of its lens. We have included a diverse range of subjects, including landscapes, portraits, wildlife, architecture, etc. The range of focal length is from 4.5mm to 600mm, allowing users to explore the different effects that different lenses can have on an image.
+We collected 300 high-resolution images on the Internet, captured by popular digital cameras such as Canon, Fujifilm, Nikon, Olympus, Sigma, Sony, etc. For each image, we provide the specific focal length of its lens. We have included a diverse range of subjects, including landscapes, portraits, wildlife, architecture, etc. The range of focal length is from 4.5mm to 600mm, allowing users to explore the different effects that different lenses can have on an image.
 
 ### Directory/Data Structure and Parsing
+The value of the focal length of each image can be obtained by splitting the last sub-string in the file name (e.g., ```file_name.split("_")```).
 
 ```
 ├── Dataset
