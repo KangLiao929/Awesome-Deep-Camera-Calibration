@@ -7,7 +7,7 @@
 <!-- [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) -->
 <!-- [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) -->
 
-![Overview](/teaser.png)
+![Overview](assets/teaser.png)
 **<div align="center">Popular calibration objectives, models, and extended applications in camera calibration</div>**
 
 Our repository provides：
@@ -39,14 +39,14 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 * [A Flexible New Technique for Camera Calibration](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf) - Zhengyou Zhang. (2000)
 
 ## 🚩Taxonomy
-![Overview](/taxonomy.png)
+![Overview](assets/taxonomy.png)
 The structural and hierarchical taxonomy of camera calibration with deep learning. Some classical methods are listed under each category.
 
-![Overview](/time_line.png)
+![Overview](assets/time_line.png)
 A concise milestone of deep learning-based camera calibration methods. We classify all methods based on the uncalibrated camera model and its extended applications: standard model, distortion model, cross-view model, and cross-sensor model.
 
 ## 🚩Benchmark
-![Overview](/benchmark.png)
+![Overview](assets/benchmark.png)
 Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We will make this benchmark available soon at Google Drive.
 
 ## 🚩Methods
