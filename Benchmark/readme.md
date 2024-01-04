@@ -1,9 +1,9 @@
 # Benchmark for Learning-based Camera Calibration and Beyond
 
-## Standard Pinhole Model 
+## :circus_tent: Standard Pinhole Model 
 
-## Distortion Camera Model 
+## :circus_tent: Distortion Camera Model 
 
-## Cross-View Model
+## :circus_tent: Cross-View Model
 
-## Cross-Sensor Model
+## :circus_tent: Cross-Sensor Model
