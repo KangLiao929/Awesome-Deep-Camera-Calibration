@@ -69,6 +69,52 @@ We collected RGB and point cloud data from Apollo[6], DAIR-V2X[7], KITTI[8], KUC
 
 ### Directory/Data Structure and Parsing
 
+```
+├── Dataset
+|   ├── Cross-sensor
+|   |   ├── image
+|   |   |   ├── Apollo
+|   |   |   |   ├── front_image
+|   |   |   |   ├── left_back_image
+|   |   |   |   ├── right_back_image
+|   |   |   ├── DAIR-V2X
+|   |   |   ├── KITTI
+|   |   |   |   ├── image_02
+|   |   |   |   ├── image_03
+|   |   |   ├── KUCL
+|   |   |   |   ├── cam0
+|   |   |   |   ├── cam1
+|   |   |   |   ├── ......
+|   |   |   |   ├── cam5
+|   |   |   |   ├── mask
+|   |   |   ├── NUScenes
+|   |   |   |   ├── CAM_BACK
+|   |   |   |   ├── ......
+|   |   |   |   ├── CAM_FRONT
+|   |   |   ├── ONCE
+|   |   |   |   ├── val_cam01
+|   |   |   |   ├── val_cam03
+|   |   |   |   ├── ......
+|   |   ├── depth
+|   |   |   ├── Apollo
+|   |   |   |   ├── ......
+|   |   |   ├── DAIR-V2X
+|   |   |   ├── KITTI
+|   |   |   |   ├── ......
+|   |   |   ├── KUCL
+|   |   |   |   ├── ......
+|   |   |   ├── NUScenes
+|   |   |   |   ├── ......
+|   |   |   ├── ONCE
+|   |   |   |   ├── ......
+|   |   ├── pcd
+|   |   |   ├── ......
+|   |   ├── label
+|   |   |   ├── ......
+|   |   ├── visualization
+|   |   |   ├── ......
+```
+
 
 
 ## Reference
