@@ -33,6 +33,9 @@ We created a comprehensive dataset for the distortion camera model, with a focus
 We selected 500 testing samples at random from each of the four representative datasets[3][4][5] to create a dataset for the cross-view model. It covers a range of scenarios: MS-COCO provides natural synthetic data, GoogleEarch contains aerial synthetic data, and GoogleMap offers multi-modal synthetic data. Parallax is not a factor in these three datasets, while CAHomo provides real-world data with non-planar scenes. To standardize the dataset, we converted all images to a unified format and recorded the matched points between two views. In MS-COCO, GoogleEarch, and GoogleMap, we used four vertices of the images as the matched points. In CAHomo, we identified six matched key points within the same plane.
 
 ### Directory/Data Structure and Parsing
+
+We unified the format of all datasets as follows. In the label, we record the matched points between img1 and img2. In MSCOCO, GoogleEarch, and GoogleMap, we adopt the four vertices while in CAHomo, we leverage six matched key points induced in the same plane. For LK-based alignment algorithms, we also provide the original images of img2 in the datasets of MSCOCO, GoogleEarch, and GoogleMap.
+
 ```
 ├── Dataset
 |   ├── Cross-view
