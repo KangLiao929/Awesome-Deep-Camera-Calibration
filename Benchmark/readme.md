@@ -25,6 +25,7 @@ We created a comprehensive dataset for the distortion camera model, with a focus
 ### Directory/Data Structure and Parsing
 
 
+
 ## :circus_tent: Cross-View Model
 
 ### Brief Description
@@ -32,6 +33,30 @@ We created a comprehensive dataset for the distortion camera model, with a focus
 We selected 500 testing samples at random from each of the four representative datasets[3][4][5] to create a dataset for the cross-view model. It covers a range of scenarios: MS-COCO provides natural synthetic data, GoogleEarch contains aerial synthetic data, and GoogleMap offers multi-modal synthetic data. Parallax is not a factor in these three datasets, while CAHomo provides real-world data with non-planar scenes. To standardize the dataset, we converted all images to a unified format and recorded the matched points between two views. In MS-COCO, GoogleEarch, and GoogleMap, we used four vertices of the images as the matched points. In CAHomo, we identified six matched key points within the same plane.
 
 ### Directory/Data Structure and Parsing
+```
+├── Dataset
+|   ├── Cross-view
+|   |   ├── MSCOCO
+|   |   |   ├── img1
+|   |   |   ├── img2
+|   |   |   ├── img2_ori
+|   |   |   ├── label
+|   |   ├── GoogleEarth
+|   |   |   ├── img1
+|   |   |   ├── img2
+|   |   |   ├── img2_ori
+|   |   |   ├── label
+|   |   ├── GoogleMap
+|   |   |   ├── img1
+|   |   |   ├── img2
+|   |   |   ├── img2_ori
+|   |   |   ├── label
+|   |   ├── CAHomo
+|   |   |   ├── img1
+|   |   |   ├── img2
+|   |   |   ├── label
+|   |   |   ├── visualization
+```
 
 ## :circus_tent: Cross-Sensor Model
 
