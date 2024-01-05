@@ -30,11 +30,47 @@ The value of the focal length of each image can be obtained by splitting the las
 ## :circus_tent: Distortion Camera Model 
 
 ### Brief Description
+
 We created a comprehensive dataset for the distortion camera model, with a focus on wide-angle cameras. The dataset is comprised of three subcategories. The first is a synthetic dataset, which was generated using the widely used polynomial model[1][2]. It contains both circular and rectangular structures, with 1,000 distortion-rectification image pairs. The second subcategory consists of data captured under real-world settings, derived from the raw calibration data for around 40 types of wide-angle cameras. For each calibration data, the intrinsics, extrinsics, and distortion coefficients are available. Finally, we exploit a car equipped with different cameras to capture video sequences. The scenes cover both indoor and outdoor environments, including daytime and nighttime footage.
 
 ### Directory/Data Structure and Parsing
 
+For each folder of the 'Real' subcategory, the file name is formatted as 'lens-type_chip-type_resolution', such as '1002_2053_1080P', which contains the calibration results of a camera array with four wide-angle lenses. In particular, we provide the originally captured images of four wide-angle lenses in the 'lens-type_chip-type_icon' folder, such as '1002_2053_icon'. Besides, the calibration results of each wide-angle lens are included in the 'lens-type_chip-type_0', 'lens-type_chip-type_1', 'lens-type_chip-type_2', and 'lens-type_chip-type_3' folder:
+* Rectified images in the 'calib_result' folder.
+* Remapping table in the '.brp' file.
+* Camera extrinsic parameters in the 'cam_mat_.xml' file.
+* Camera distortion parameters in the 'dist_coeff_.xml' file.
 
+```
+├── Dataset
+|   ├── Distortion
+|   |   ├── Synthetic
+|   |   |   ├── circular_structure
+|   |   |   |   ├── input
+|   |   |   |   ├── gt
+|   |   |   ├── rectangular_structure
+|   |   |   |   ├── input
+|   |   |   |   ├── gt
+|   |   ├── Real
+|   |   |   ├── 1002_2053_1080P
+|   |   |   |   ├── 1002_2053_0
+|   |   |   |   |   ├── calib_result
+|   |   |   |   |   ├── 1002_2053_0.brp
+|   |   |   |   |   ├── cam_mat_1002_2053_0.xml
+|   |   |   |   |   ├── dist_coeff_1002_2053_0.xml
+|   |   |   |   ├── ......
+|   |   |   |   ├── 1002_2053_3
+|   |   |   |   |   ├── ......
+|   |   |   |   ├── 1002_2053_icon
+|   |   |   |   |   ├── 0
+|   |   |   |   |   ├── ......
+|   |   |   |   |   ├── 3
+
+
+
+
+|   |   ├── Real_Sequence
+```
 
 ## :circus_tent: Cross-View Model
 
@@ -44,7 +80,7 @@ We selected 500 testing samples at random from each of the four representative d
 
 ### Directory/Data Structure and Parsing
 
-We unified the format of all datasets as follows. In the label, we record the matched points between img1 and img2. In MSCOCO, GoogleEarch, and GoogleMap, we adopt the four vertices while in CAHomo, we leverage six matched key points induced in the same plane. For LK-based alignment algorithms, we also provide the original images of img2 (named ''img2_ori'') in the datasets of MSCOCO, GoogleEarch, and GoogleMap.
+We unified the format of all datasets as follows. In the label, we record the matched points between img1 and img2. In MSCOCO, GoogleEarch, and GoogleMap, we adopt the four vertices while in CAHomo, we leverage six matched key points induced in the same plane. For LK-based alignment algorithms, we also provide the original images of img2 (named 'img2_ori') in the datasets of MSCOCO, GoogleEarch, and GoogleMap.
 
 ```
 ├── Dataset
