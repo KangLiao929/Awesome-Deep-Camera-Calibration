@@ -34,7 +34,7 @@ We selected 500 testing samples at random from each of the four representative d
 
 ### Directory/Data Structure and Parsing
 
-We unified the format of all datasets as follows. In the label, we record the matched points between img1 and img2. In MSCOCO, GoogleEarch, and GoogleMap, we adopt the four vertices while in CAHomo, we leverage six matched key points induced in the same plane. For LK-based alignment algorithms, we also provide the original images of img2 in the datasets of MSCOCO, GoogleEarch, and GoogleMap.
+We unified the format of all datasets as follows. In the label, we record the matched points between img1 and img2. In MSCOCO, GoogleEarch, and GoogleMap, we adopt the four vertices while in CAHomo, we leverage six matched key points induced in the same plane. For LK-based alignment algorithms, we also provide the original images of img2 (named ''img2_ori'') in the datasets of MSCOCO, GoogleEarch, and GoogleMap.
 
 ```
 ├── Dataset
