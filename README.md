@@ -22,7 +22,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 
 ## 📣News
-* 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark/readme.md](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
+* 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
 * 2023.03.19: The survey of the arXiv version is online.
 
 
@@ -50,7 +50,7 @@ We classify all methods based on the uncalibrated camera model and its extended 
 ## 🚩Benchmark
 ![Overview](assets/benchmark.png)
 **<div align="center">Overview of our collected benchmark, which covers all models reviewed in this survey.</div>** 
-In this dataset, the image and video were derived from diverse cameras under different environments. The accurate ground truth and label are provided for each data. Please refer to the dataset link and more details in [Benchmark/readme.md](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
+In this dataset, the image and video were derived from diverse cameras under different environments. The accurate ground truth and label are provided for each data. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
 
 ## 🚩Methods
 
