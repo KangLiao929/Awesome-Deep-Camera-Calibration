@@ -22,7 +22,8 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 
 ## 📣News
-1. The survey of arXiv version is online.
+* 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark/readme.md](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
+* 2023.03.19: The survey of the arXiv version is online.
 
 
 ## 🚩Contents 
@@ -40,14 +41,16 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 ## 🚩Taxonomy
 ![Overview](assets/taxonomy.png)
-The structural and hierarchical taxonomy of camera calibration with deep learning. Some classical methods are listed under each category.
+**<div align="center">The structural and hierarchical taxonomy of camera calibration with deep learning. Some classical methods are listed under each category.</div>**
 
 ![Overview](assets/time_line.png)
-A concise milestone of deep learning-based camera calibration methods. We classify all methods based on the uncalibrated camera model and its extended applications: standard model, distortion model, cross-view model, and cross-sensor model.
+**<div align="center">A concise milestone of deep learning-based camera calibration methods.</div>** 
+We classify all methods based on the uncalibrated camera model and its extended applications: standard model, distortion model, cross-view model, and cross-sensor model.
 
 ## 🚩Benchmark
 ![Overview](assets/benchmark.png)
-Overview of our collected benchmark, which covers all models reviewed in this survey. In this dataset, the image and video derive from diverse cameras under different environments. The accurate ground truth and label are provided for each data. We will make this benchmark available soon at Google Drive.
+**<div align="center">Overview of our collected benchmark, which covers all models reviewed in this survey.</div>** 
+In this dataset, the image and video were derived from diverse cameras under different environments. The accurate ground truth and label are provided for each data. Please refer to the dataset link and more details in [Benchmark/readme.md](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
 
 ## 🚩Methods
 
