@@ -69,6 +69,15 @@ We collected RGB and point cloud data from Apollo[6], DAIR-V2X[7], KITTI[8], KUC
 
 ### Directory/Data Structure and Parsing
 
+In the context of Camera-LiDAR calibration, current learning-based methods typically necessitate an RGB image with an accompanying point cloud or depth map as input. For ease of use, we organize the input images, point clouds, depth maps, and ground-truth (GT) labels into four folders that share a consistent structure. The intrinsic parameters and distortion coefficients are stored in the 'params' folder. Additionally, we provide pseudo-color visualizations of depth maps overlaid on RGB images within the 'visualization' folder for preview purposes.
+
+Here is a detailed illustration of the dataset:
+* RGB images have been pre-processed to remove distortion.
+* Point clouds are transformed using the SE(3) labels. 
+* Depth maps are projected using intrinsic parameters, distortion coefficients, and GT labels, then saved in uint16 format representing millimeters.
+* GT labels are formatted as 4x4 matrices.
+* Each RGB image, point cloud, depth map, and GT label shares the same filename for clear correspondence.
+
 ```
 ├── Dataset
 |   ├── Cross-sensor
@@ -112,6 +121,8 @@ We collected RGB and point cloud data from Apollo[6], DAIR-V2X[7], KITTI[8], KUC
 |   |   ├── label
 |   |   |   ├── ......
 |   |   ├── visualization
+|   |   |   ├── ......
+|   |   ├── params
 |   |   |   ├── ......
 ```
 
