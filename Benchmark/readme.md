@@ -1,5 +1,15 @@
 # Benchmark for Learning-based Camera Calibration and Beyond
 
+As there is no public and unified benchmark in learning-based camera calibration, we contribute a dataset that can serve as a platform for generalization evaluations. In this dataset, the images and videos are captured by different cameras under diverse scenes, including simulation environments and real-world settings. Additionally, we provide the calibration ground truth, parameter label, and visual clues in this dataset based on different conditions. The directory structure of this benchmark is formed as follows.
+
+```
+├── Dataset
+|   ├── Pinhole
+|   ├── Distortion
+|   ├── Cross-view
+|   ├── Cross-sensor
+```
+
 ## :circus_tent: Standard Pinhole Model 
 
 ### Brief Description
