@@ -35,11 +35,13 @@ We created a comprehensive dataset for the distortion camera model, with a focus
 
 ### Directory/Data Structure and Parsing
 
-For each folder of the 'Real' subcategory, the file name is formatted as 'lens-type_chip-type_resolution', such as '1002_2053_1080P', which contains the calibration results of a camera array with four wide-angle lenses. In particular, we provide the originally captured images of four wide-angle lenses in the 'lens-type_chip-type_icon' folder, such as '1002_2053_icon'. Besides, the calibration results of each wide-angle lens are included in the 'lens-type_chip-type_0', 'lens-type_chip-type_1', 'lens-type_chip-type_2', and 'lens-type_chip-type_3' folder:
+For each folder of the 'Real' subcategory, the file name is formatted as 'lens-type_chip-type_resolution', such as '1002_2053_1080P', which contains the calibration results of a camera array with four wide-angle lenses. In particular, we provide the originally captured images of four wide-angle lenses in the 'lens-type_chip-type_icon' folder, such as '1002_2053_icon'. Besides, the calibration results of each wide-angle lens are included in the 'lens-type_chip-type_0', 'lens-type_chip-type_1', 'lens-type_chip-type_2', and 'lens-type_chip-type_3' folder, respectively:
 * Rectified images in the 'calib_result' folder.
 * Remapping table in the '.brp' file.
 * Camera extrinsic parameters in the 'cam_mat_.xml' file.
 * Camera distortion parameters in the 'dist_coeff_.xml' file.
+
+For each folder of the 'Real_Sequence' subcategory, the equipment configuration is similar to the 'Real' subcategory. Besides the captured image ('0', '1', '2', and '3' represent 'front', 'rear', 'right', and 'left' equipped positions in the car), the remapping table, extrinsic parameters, and distortion parameters of each wide-angle lens, we also integrate the calibrated parameters of four lenses in the 'camera' folder ('.json').
 
 ```
 ├── Dataset
@@ -65,11 +67,24 @@ For each folder of the 'Real' subcategory, the file name is formatted as 'lens-t
 |   |   |   |   |   ├── 0
 |   |   |   |   |   ├── ......
 |   |   |   |   |   ├── 3
-
-
-
-
 |   |   ├── Real_Sequence
+|   |   |   ├── data_2022_04_06
+|   |   |   |   ├── camera
+|   |   |   |   |   ├── camera matrix
+|   |   |   |   |   |   ├── 6053_1335_0.brp
+|   |   |   |   |   |   ├── ......
+|   |   |   |   |   |   ├── 6053_1335_3.brp
+|   |   |   |   |   |   ├── cam_mat_6053_1335_0.xml
+|   |   |   |   |   |   ├── ......
+|   |   |   |   |   |   ├── cam_mat_6053_1335_3.xml
+|   |   |   |   |   |   ├── dist_coeff_6053_1335_0.xml
+|   |   |   |   |   |   ├── ......
+|   |   |   |   |   |   ├── dist_coeff_6053_1335_3.xml
+|   |   |   |   |   ├── camera_2022_04_06.json
+|   |   |   |   ├── sequences
+|   |   |   |   |   ├── 001
+|   |   |   |   |   |   ├── jpg
+|   |   |   |   |   ├── ......
 ```
 
 ## :circus_tent: Cross-View Model
