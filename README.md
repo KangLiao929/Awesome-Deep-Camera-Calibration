@@ -25,8 +25,8 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 - [x] 2023.03.19: The survey of the arXiv version is online.
 - [x] 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
 - [x] 2024.06.04: More details about the calibrated camera parameters in our [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md) are updated.
-- [ ] Update the evaluation on the constructed benchmark.
-- [ ] Update the survey paper with more technical discussions with NeRF (especially in the camera parameter initialization).
+- [x] 2024.06.05: Update the survey paper (Section 3.4) with more technical discussions with NeRF (especially in the camera parameter initialization).
+- [x] 2024.06.05: Update the survey paper (supplementary material) with the evaluation on the constructed benchmark.
 - [ ] Update the literature reviews for 2023 and 2024.
 
 ## 🚩Contents 
@@ -196,7 +196,7 @@ In this dataset, the image and video were derived from diverse cameras under dif
 
 
 ## 📜</g-emoji>License
-The survey and benchmark are only made available for academic research purpose.
+The survey and benchmark are only made available for academic research purposes.
 
 ## 📚</g-emoji>Citation
 ```
