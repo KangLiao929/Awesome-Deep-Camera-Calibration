@@ -10,7 +10,7 @@
 ![Overview](assets/teaser.png)
 **<div align="center">Popular calibration objectives, models, and extended applications in camera calibration</div>**
 
-Our repository provides：
+Our repository provides:
 
  **1)** a time line of the development in the related research community
  **2)** a taxonomy of the survey
