@@ -37,7 +37,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 4. [Methods](#Methods)
 5. [Datasets](#Datasets)
 6. [Citation](#Citation)
-7. [Handbook in Chinese)](#Handbook-in-Chinese)
+7. [Handbook in Chinese](#Handbook-in-Chinese)
 
 ## 📖Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
