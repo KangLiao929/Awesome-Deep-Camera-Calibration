@@ -20,15 +20,6 @@ Our repository provides:
 
 More content and details can be found in our Survey Paper: [Deep Learning for Camera Calibration and Beyond: A Survey](https://arxiv.org/abs/2303.10559). 
 
-## 📝 Changelog/News
-
-- [x] 2023.03.19: The survey of the arXiv version is online.
-- [x] 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
-- [x] 2024.06.04: More details about the calibrated camera parameters in our [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md) are updated.
-- [x] 2024.06.05: Update the survey paper (Section 3.3.3-Calibration with Reconstruction) with more technical discussions with NeRF, especially in the camera parameter initialization.
-- [x] 2024.06.05: Update the survey paper (supplementary material) with the evaluation on the constructed benchmark.
-- [x] 2025.02.24: Update the literature reviews for 2023 and 2024 (more than 100 new papers!). Please refer more details to our [arXiv-v3 version](https://arxiv.org/abs/2303.10559v3).
-
 ## 🚩Contents 
 1. [Basics](#Basics)
 2. [Taxonomy and Statistics](#Taxonomy-and-Statistics)
@@ -38,6 +29,16 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 5. [Datasets](#Datasets)
 6. [Citation](#Citation)
 7. [Handbook in Chinese](#Handbook-in-Chinese)
+
+## 📝 Changelog/News
+
+- [x] 2023.03.19: The survey of the arXiv version is online.
+- [x] 2024.01.05: The benchmark is released. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
+- [x] 2024.06.04: More details about the calibrated camera parameters in our [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md) are updated.
+- [x] 2024.06.05: Update the survey paper (Section 3.3.3-Calibration with Reconstruction) with more technical discussions with NeRF, especially in the camera parameter initialization.
+- [x] 2024.06.05: Update the survey paper (supplementary material) with the evaluation on the constructed benchmark.
+- [x] 2025.02.24: Update the literature reviews for 2023 and 2024 (more than 100 new papers!). Please refer more details to our [arXiv-v3 version](https://arxiv.org/abs/2303.10559v3).
+- [x] 2025.02.24: Update the [Novel Calibration Representations](#Novel-Calibration-Representations) in the learning-based camera calibration, which shows the potential to replace the traditional calibration objectives for neural networks.
 
 ## 📖Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
