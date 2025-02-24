@@ -10,14 +10,6 @@
 ![Overview](assets/teaser.png)
 **<div align="center">Popular calibration objectives, models, and extended applications in camera calibration</div>**
 
-Our repository provides:
-
- **1)** a time line of the development in the related research community
- **2)** a taxonomy of the survey
- **3)** a public and holistic benchmark 
- **4)** collects deep learning-based camera calibration **Publication, Objective, Network**
- **5)** dataset summary
-
 More content and details can be found in our Survey Paper: [Deep Learning for Camera Calibration and Beyond: A Survey](https://arxiv.org/abs/2303.10559). 
 
 ## 🚩Contents 
@@ -38,10 +30,10 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 - [x] 2024.06.05: Update the survey paper (Section 3.3.3-Calibration with Reconstruction) with more technical discussions with NeRF, especially in the camera parameter initialization.
 - [x] 2024.06.05: Update the survey paper (supplementary material) with the evaluation on the constructed benchmark.
 - [x] 2025.02.24: Update the literature reviews for 2023 and 2024 (more than 100 new papers!). Please refer more details to our [arXiv-v3 version](https://arxiv.org/abs/2303.10559v3).
-- [x] 2025.02.24: Update the [Novel Calibration Representations](#Novel-Calibration-Representations) in the learning-based camera calibration, which shows the potential to replace the traditional calibration objectives for neural networks.
+- [x] 2025.02.24: Update the [Novel Calibration Representations](#Novel-Calibration-Representations) in the learning-based camera calibration, which show the potential to replace the traditional calibration objectives for neural networks.
 
 ## 📖Basics
-* [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
+* [Multiple View Geometry in Computer Vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
 * [A Flexible New Technique for Camera Calibration](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf) - Zhengyou Zhang. (2000)
 
 ## 📊Taxonomy and Statistics
