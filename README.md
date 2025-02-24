@@ -31,9 +31,9 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 
 ## 🚩Contents 
 1. [Basics](#Basics)
-2. [Taxonomy](#Taxonomy)
+2. [Taxonomy and Statistics](#Taxonomy-and-Statistics)
 3. [Benchmark](#Benchmark)
-4. [Novel Calibration Representations](#Calibration_Representation)
+4. [Novel Calibration Representations](#Novel-Calibration-Representation)
 4. [Methods](#Methods)
 5. [Dataset](#Dataset)
 6. [Citation](#Citation)
@@ -61,13 +61,13 @@ We summarize all literature based on the number of publications per year, calibr
 In this dataset, the image and video were derived from diverse cameras under different environments. The accurate ground truth and label are provided for each data. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
 
 
-## 🏁 Novel Calibration Representations
+## 🏁Novel Calibration Representations
 ![Overview](assets/camera_representations.png)
 **<div align="center">Novel calibration representations are designed for replacing the traditional calibration objectives.</div>** 
 Recent learning-based camera calibration works tend to design a novel geometry field to replace the traditional geometric representations as the new learning target, which is inspired by the prior of camera models or the perspective properties of captured images, such as the [distortion distribution map](https://arxiv.org/pdf/2007.10689), [perspective field](https://arxiv.org/pdf/2212.03239), [incidence field](https://arxiv.org/pdf/2306.10988), [camera rays](https://arxiv.org/pdf/2402.14817), and [camera image](https://arxiv.org/pdf/2411.17240), etc. These fields represent a pixel-wise or patch-wise parametrization of the intrinsic and/or extrinsic invariants. They show an explicit relationship to the image details and are learning-friendly for neural networks.
 
 
-## 📸 Methods
+## 📸Methods
 
 |Year|Publication|Title|Abbreviation|Objective|Platform|Network|
 |---|---|---|---|---|---|---|
@@ -176,7 +176,7 @@ Recent learning-based camera calibration works tend to design a novel geometry f
 |2022|[ECCV](https://arxiv.org/abs/2111.12927)|Rethinking generic camera models for deep single image camera calibration to recover rotation and fisheye distortion|GenCaliNet|Intrinsics + Extrinsics + Distortion coefficients| |DenseNet|
 |2022|[PAMI](https://ieeexplore.ieee.org/abstract/document/9771389)|Content-Aware Unsupervised Deep Homography Estimation and Beyond|Liu et al.|Projection matrixs|PyTorch|ResNet|
 
-## 🏗️ Datasets
+## 🏗️Datasets
 |Name|Publication|Real/Synthetic|Image/Video|Objectives|Dataset|
 |---|---|---|---|---|---|
 |KITTI|[CVPR](https://www.cvlibs.net/publications/Geiger2012CVPR.pdf)|Real|Video|Base|[Dataset](https://www.cvlibs.net/datasets/kitti/)|
@@ -223,5 +223,5 @@ Journal = {arXiv:2303.10559}
 ## 📭Contact
 
 ```
-kang_liao@bjtu.edu.cn
+kang.liao@ntu.edu.sg
 ```
