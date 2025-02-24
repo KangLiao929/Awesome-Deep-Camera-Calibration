@@ -33,9 +33,9 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 1. [Basics](#Basics)
 2. [Taxonomy and Statistics](#Taxonomy-and-Statistics)
 3. [Benchmark](#Benchmark)
-4. [Novel Calibration Representations](#Novel-Calibration-Representation)
+4. [Novel Calibration Representations](#Novel-Calibration-Representations)
 4. [Methods](#Methods)
-5. [Dataset](#Dataset)
+5. [Datasets](#Datasets)
 6. [Citation](#Citation)
 7. [知乎导读](#知乎导读)
 
