@@ -27,7 +27,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 - [x] 2024.06.04: More details about the calibrated camera parameters in our [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md) are updated.
 - [x] 2024.06.05: Update the survey paper (Section 3.4) with more technical discussions with NeRF, especially in the camera parameter initialization.
 - [x] 2024.06.05: Update the survey paper (supplementary material) with the evaluation on the constructed benchmark.
-- [ ] Update the literature reviews for 2023 and 2024.
+- [x] Update the literature reviews for 2023 and 2024.
 
 ## 🚩Contents 
 1. [Basics](#Basics)
