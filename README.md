@@ -39,11 +39,11 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 6. [Citation](#Citation)
 7. [知乎导读](#知乎导读)
 
-## 📖 Basics
+## 📖Basics
 * [Multiple view geometry in computer vision](https://cseweb.ucsd.edu/classes/sp13/cse252B-a/HZ2eCh2.pdf) - Hartley, R., & Zisserman, A. (2004)
 * [A Flexible New Technique for Camera Calibration](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf) - Zhengyou Zhang. (2000)
 
-## 📊 Taxonomy and Statistics
+## 📊Taxonomy and Statistics
 ![Overview](assets/taxonomy.png)
 **<div align="center">The structural and hierarchical taxonomy of camera calibration with deep learning. Some classical methods are listed under each category.</div>**
 
@@ -55,7 +55,7 @@ We classify all methods based on the uncalibrated camera model and its extended 
 **<div align="center">A statistic analysis of deep learning-based camera calibration methods.</div>** 
 We summarize all literature based on the number of publications per year, calibration objectives, simulation of the dataset, and learning strategy.
 
-## 📁 Benchmark
+## 📁Benchmark
 ![Overview](assets/benchmark.png)
 **<div align="center">Overview of our collected benchmark, which covers all models reviewed in this survey.</div>** 
 In this dataset, the image and video were derived from diverse cameras under different environments. The accurate ground truth and label are provided for each data. Please refer to the dataset link and more details in [Benchmark](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration/blob/main/Benchmark/readme.md).
