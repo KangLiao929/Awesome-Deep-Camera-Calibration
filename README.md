@@ -215,7 +215,7 @@ Journal = {arXiv:2303.10559}
 [导读链接](https://zhuanlan.zhihu.com/p/619217025)
 
 ## 🚀Project and Course using Our Survey
-* [Camera Calibration and Pose Estimation](https://sites.ecse.rpi.edu/~qji/CV/camera_calibration_pose_estimation.pdf) of [ECSE 4961/6650 Computer Vision](https://sites.ecse.rpi.edu/~qji/CV/ECSE%204961-6650%20Computer%20Vision_Sylbus_Fall23b.pdf) by [Prof. Qiang Ji](https://sites.ecse.rpi.edu/~qji/), Rensselaer Polytechnic Institute.
+* [Camera Calibration and Pose Estimation](https://sites.ecse.rpi.edu/~qji/CV/camera_calibration_pose_estimation.pdf) of [ECSE 4961/6650 Computer Vision](https://sites.ecse.rpi.edu/~qji/CV/ECSE%204961-6650%20Computer%20Vision_Sylbus_Fall23b.pdf) by [Prof. Qiang Ji](https://sites.ecse.rpi.edu/~qji/), Rensselaer Polytechnic Institute, US.
 
 ## 📭Contact
 
