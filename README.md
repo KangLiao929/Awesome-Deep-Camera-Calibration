@@ -24,7 +24,7 @@ More content and details can be found in our Survey Paper: [Deep Learning for Ca
 8. [Project and Course using Our Survey](#Project-and-Course-using-Our-Survey)
 
 ## 📢 News
-Our recent work **Puffin** can unify the camera-centric understanding (camera calibration, pose estimation) and generation (camera-controllable T2I and I2I generation) within a cohesive multimodal framework. It enables more precise understanding and generation performance by our proposed *thinking with camera*, and provides insights on the meaningful mutual effect among multimodal tasks. If you are interested in the camera-related 3D vision, embodied AI, and spatial intelligence, please check out more details [here](https://kangliao929.github.io/projects/puffin/).
+Our recent work **Puffin** can unify the camera-centric understanding (camera calibration, pose estimation) and generation (camera-controllable T2I and I2I generation) within a cohesive multimodal framework. It enables more precise understanding and generation performance by our proposed *thinking with camera*, and provides insights on the meaningful mutual effect among multimodal tasks. If you are interested in the camera-related 3D vision, photography, embodied AI, and spatial intelligence, please check out more details [here](https://kangliao929.github.io/projects/puffin/).
 
 ## 📝 Changelog
 - [x] 2025.02.24: Update the [Novel Calibration Representations](#Novel-Calibration-Representations) in the learning-based camera calibration, which show the potential to replace the traditional calibration objectives for neural networks.
